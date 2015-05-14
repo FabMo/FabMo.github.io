@@ -446,11 +446,6 @@ Small Device Styles
 
 /*CUSTOM*/
 
-header img {
-  /*padding: 1em;
-  margin-left: 3em;*/
-}
-
 .introduction_story {
   width: 60%;
   position: relative;
@@ -522,6 +517,8 @@ header img {
   line-height: 1.2em;
   margin: 0 auto;
   padding-top: 0;
+  position: relative;
+  top: -3em;
 }
 
 .freedom span {
@@ -536,6 +533,7 @@ header img {
 
 .freedom h5 {
   width: 75%;
+  line-height: 1.5em;
 }
 
 .freedom div {
@@ -567,12 +565,12 @@ header img {
   padding-bottom: 2em;
   margin-bottom: 5em;
   position: relative;
-  top: -2.5em;;
+  top: 0em;
 }
 
 .software {
   position: relative;
-  top: 2em;
+  top: 2.5em;
 }
 
 .divider {
@@ -621,7 +619,7 @@ footer {
 
 .logo_footer {
   position: relative;
-  right: -50em;
+  right: -45em;
   top: -10em;
   width: 20em;
 }
