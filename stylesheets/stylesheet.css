@@ -422,6 +422,35 @@ Small Device Styles
     font-size: 11px;
   }
 
+  .hardware, .software {
+    display: block;
+    max-width: 100%;
+    color: #2b2a6d;
+  }
+
+  .hardware {
+    padding-right: 3em;
+    padding-bottom: 2em;
+    margin-bottom: 5em;
+    position: relative;
+    top: -2.5em;
+  }
+
+  .software {
+    position: relative;
+    top: 2em;
+  }
+
+  .divider {
+    position:absolute;
+    left:50%;
+    top:10%;
+    bottom:10%;
+    border-left: 3px solid #2b2a6d;
+  }
+
+
+
 }
 
 
@@ -432,80 +461,90 @@ header img {
   margin-left: 3em;*/
 }
 
-.introduction_header {
+/*.introduction_header {
   background-color: white;
   height: 500px;
   position: relative;
   border-bottom: 2px solid #2b2a6d;
   padding-bottom: 4em;
-}
-
-.cartoon_container {
-  width: 40em;
-  max-width: 80%;
-}
-
-.introduction_header img {
-  width: 100%;
-  display: inline;
-  float: left;
-  padding: 3em 0 3em 3em;
-}
-
-#project_tagline {
-  width: 50%;
-  display: inline;
-  line-height: 2em;
-}
-
-.introduction_title {
-  position: absolute;
-  right: 0;
-}
-
-#project_tagline span{
-  display: block;
-}
-
-.at-last {
-  font-size: 2.5em;
-  color: #F9B51C;
-  padding-top: 1em;
-  padding-bottom: .5em;
-}
-
-.innovative-control, .smart-tools, .today, .tomorrow {
-  color: #2b2a6d;
-  font-size: 1.3em;
-  line-height: 2em;
-  text-align: right;
-  padding-right: 1em;
-}
-
-.smart-tools {
-  font-size: 1.5em;
-}
+}*/
 
 .introduction_story {
-  display: block;
-  text-align: center;
   width: 60%;
-  position: absolute;
-  bottom: 17.5em;
-  left: 10%;
-  border: 2px solid #2b2a6d;
+  position: relative;
+  top: -6em;
+  border: 3px solid #2b2a6d;
   background-color: white;
   font-size: 1.2em;
-  padding: 0 10%;
+  /*padding: 0 10%;*/
+  margin-bottom: 0;
 }
 
 .introduction_story p {
   width: 100%;
 }
 
+#wrapper {
+  width: 100%;
+  background-color: white;
+  border-bottom: 3px solid #2b2a6d;
+  border-top: 2px solid #2b2a6d;
+}
+
+#head_container {
+  width: 80%;
+  max-width: 1200px;
+  min-height: 30em;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.cartoon_container {
+  max-width: 50%;
+}
+
+.cartoon_container img {
+  width: 100%;
+  max-width: 500px;
+  float: left;
+  padding: 3em;
+}
+
+.tagline_container {
+  width: 30%;
+  height: auto;
+  display: inline-block;
+  margin: 0;
+  text-align: right;
+  overflow: hidden;
+}
+
+.tagline {
+  width: 40%;
+  font-size: 3.5vmin;
+  position: absolute;
+  right: 0;
+  top: 1.5em;
+  height: auto;
+}
+
+.tagline span {
+  position: absolute;
+  left: .5em;
+  font-size: 4vmin;
+  color: #F9B51C;
+}
+
 .freedom {
-  padding-top: 3em;
   line-height: 1.2em;
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.freedom span {
+  color: #F9B51C;
+  text-decoration: underline;
 }
 
 .freedom h3 {
@@ -522,21 +561,35 @@ header img {
 
 .product_info {
   position: relative;
+  background-color: white;
+}
+
+.product_info h2, .product_info h4 {
+  line-height: .5em;
+}
+
+.product_info h4 {
+  padding-bottom: 1em;
 }
 
 .hardware, .software {
   display: inline-block;
-  width: 40%;
+  max-width: 40%;
   padding-left: 6%;
-  padding-bottom: 1em;
-  margin-bottom: 2em;
-  /*border-bottom: 3px solid #2b2a6d;*/
+  color: #2b2a6d;
 }
 
 .hardware {
-  /*border-right: 3px solid #2b2a6d;*/
   padding-right: 3em;
   padding-bottom: 2em;
+  margin-bottom: 5em;
+  position: relative;
+  top: -2.5em;;
+}
+
+.software {
+  position: relative;
+  top: 2em;
 }
 
 .divider {
@@ -547,7 +600,7 @@ header img {
   border-left: 3px solid #2b2a6d;
 }
 
-.hdwr1 {
+/*.hdwr1 {
   width: 25%;
   padding: 2em 2em 2em 8em;
 }
@@ -555,18 +608,18 @@ header img {
 .hdwr2 {
   width: 32%;
   padding: 2em 2em 2em 5em;
-}
+}*/
 
 .fabmo_story h2 {
   color: #2b2a6d;
 }
 
 .outer {
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 header {
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 footer {
