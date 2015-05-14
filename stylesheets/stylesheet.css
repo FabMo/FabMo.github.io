@@ -451,14 +451,6 @@ header img {
   margin-left: 3em;*/
 }
 
-/*.introduction_header {
-  background-color: white;
-  height: 500px;
-  position: relative;
-  border-bottom: 2px solid #2b2a6d;
-  padding-bottom: 4em;
-}*/
-
 .introduction_story {
   width: 60%;
   position: relative;
@@ -619,8 +611,58 @@ header {
 
 footer {
   background-color: white;
+  max-height: 18em;
+
 }
 
 #footer_wrap {
   background-color: white;
 }
+
+.logo_footer {
+  position: relative;
+  right: -50em;
+  top: -10em;
+  width: 20em;
+}
+.logo_footer a{
+  color: #2b2a6d;
+}
+
+.logo_footer p {
+  color: #2b2a6d;
+}
+
+.resources {
+  width: 80%;
+  position: relative;
+  left: -10em;
+}
+
+.resources h3 {
+  color: #F9B51C;
+  font-size: 2em;
+  text-decoration: underline;
+  padding-bottom: .5em;
+}
+
+.resources p {
+  color: #2b2a6d;
+  width: 90%;
+  font-size: 1.5em;
+  padding-bottom: .6em;
+}
+
+.last-p {
+  padding-bottom: 3em;
+}
+
+.resources a {
+  color: #2b2a6d;
+  font-size: 1em;
+}
+
+/*footer p {
+  position: relative;
+  right: -50em;
+}*/
