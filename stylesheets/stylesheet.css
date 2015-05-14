@@ -73,7 +73,7 @@ h1 {
 
 h2 {
   padding-bottom: 10px;
-  /*font-size: 32px;*/
+  font-size: 32px;
   /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
@@ -463,11 +463,6 @@ header img {
   right: 0;
 }
 
-.introduction_story {
-  display: block;
-  text-align: center;
-}
-
 #project_tagline span{
   display: block;
 }
@@ -492,13 +487,16 @@ header img {
 }
 
 .introduction_story {
+  display: block;
+  text-align: center;
   width: 60%;
   position: absolute;
-  top: -4em;
-  padding: 0 20%;
+  bottom: 17.5em;
+  left: 10%;
   border: 2px solid #2b2a6d;
   background-color: white;
   font-size: 1.2em;
+  padding: 0 10%;
 }
 
 .introduction_story p {
@@ -520,4 +518,61 @@ header img {
 
 .freedom div {
   padding-bottom: 2em;
+}
+
+.product_info {
+  position: relative;
+}
+
+.hardware, .software {
+  display: inline-block;
+  width: 40%;
+  padding-left: 6%;
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  /*border-bottom: 3px solid #2b2a6d;*/
+}
+
+.hardware {
+  /*border-right: 3px solid #2b2a6d;*/
+  padding-right: 3em;
+  padding-bottom: 2em;
+}
+
+.divider {
+  position:absolute;
+  left:50%;
+  top:10%;
+  bottom:10%;
+  border-left: 3px solid #2b2a6d;
+}
+
+.hdwr1 {
+  width: 25%;
+  padding: 2em 2em 2em 8em;
+}
+
+.hdwr2 {
+  width: 32%;
+  padding: 2em 2em 2em 5em;
+}
+
+.fabmo_story h2 {
+  color: #2b2a6d;
+}
+
+.outer {
+  background-color: white;
+}
+
+header {
+  background-color: white;
+}
+
+footer {
+  background-color: white;
+}
+
+#footer_wrap {
+  background-color: white;
 }
