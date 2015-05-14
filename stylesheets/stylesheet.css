@@ -422,35 +422,25 @@ Small Device Styles
     font-size: 11px;
   }
 
+  .divider {
+    display: none;
+  }
+
   .hardware, .software {
-    display: block;
+    min-width: 90%;
     max-width: 100%;
-    color: #2b2a6d;
+    display: block;
   }
 
   .hardware {
-    padding-right: 3em;
-    padding-bottom: 2em;
-    margin-bottom: 5em;
-    position: relative;
-    top: -2.5em;
+    padding-bottom: 0;
   }
+}
 
-  .software {
-    position: relative;
-    top: 2em;
+@media only screen (min-width: 600px) {
+  .hardware, .software {
+    color: white;
   }
-
-  .divider {
-    position:absolute;
-    left:50%;
-    top:10%;
-    bottom:10%;
-    border-left: 3px solid #2b2a6d;
-  }
-
-
-
 }
 
 
@@ -549,6 +539,7 @@ header img {
 
 .freedom h3 {
   color: #2b2a6d;
+  font-size: 2em;
 }
 
 .freedom h5 {
@@ -612,6 +603,10 @@ header img {
 
 .fabmo_story h2 {
   color: #2b2a6d;
+}
+
+.fabmo_story span {
+  color:  #F9B51C;
 }
 
 .outer {
