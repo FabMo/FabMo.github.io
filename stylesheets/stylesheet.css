@@ -55,15 +55,15 @@ body {
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
+  /*-webkit-font-smoothing: antialiased;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
-  font-weight: 700;
-  color:#222222;
+  /*font-weight: 700;*/
+  /*color:#222222;*/
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
 }
 
 h1 {
@@ -73,8 +73,8 @@ h1 {
 
 h2 {
   padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  /*font-size: 32px;*/
+  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h3 {
@@ -134,18 +134,18 @@ strong {
 }
 
 img {
-  position: relative;
+  /*position: relative;
   margin: 0 auto;
   max-width: 739px;
   padding: 5px;
-  margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
+  margin: 10px 0 10px 0;*/
+  /*border: 1px solid #ebebeb;*/
+/*
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
+  -ms-box-shadow: 0 0 5px #ebebeb;*/
 }
 
 p img {
@@ -160,7 +160,7 @@ p img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
+  /*background-color: #fff;*/
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 850px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -287,12 +287,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  /*background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
@@ -304,7 +304,7 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  text-shadow: #111 0px 0px 10px;
+  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #project_tagline {
@@ -312,7 +312,7 @@ Full-Width Styles
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #downloads {
@@ -385,7 +385,7 @@ Small Device Styles
 
   .inner {
     min-width: 320px;
-    max-width: 480px;
+    max-width: 400px;
   }
 
   #project_title {
@@ -418,8 +418,106 @@ Small Device Styles
 
   code, pre {
     min-width: 320px;
-    max-width: 480px;
+    max-width: 900px;
     font-size: 11px;
   }
 
+}
+
+
+/*CUSTOM*/
+
+header img {
+  /*padding: 1em;
+  margin-left: 3em;*/
+}
+
+.introduction_header {
+  background-color: white;
+  height: 500px;
+  position: relative;
+  border-bottom: 2px solid #2b2a6d;
+  padding-bottom: 4em;
+}
+
+.cartoon_container {
+  width: 40em;
+  max-width: 80%;
+}
+
+.introduction_header img {
+  width: 100%;
+  display: inline;
+  float: left;
+  padding: 3em 0 3em 3em;
+}
+
+#project_tagline {
+  width: 50%;
+  display: inline;
+  line-height: 2em;
+}
+
+.introduction_title {
+  position: absolute;
+  right: 0;
+}
+
+.introduction_story {
+  display: block;
+  text-align: center;
+}
+
+#project_tagline span{
+  display: block;
+}
+
+.at-last {
+  font-size: 2.5em;
+  color: #F9B51C;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.innovative-control, .smart-tools, .today, .tomorrow {
+  color: #2b2a6d;
+  font-size: 1.3em;
+  line-height: 2em;
+  text-align: right;
+  padding-right: 1em;
+}
+
+.smart-tools {
+  font-size: 1.5em;
+}
+
+.introduction_story {
+  width: 60%;
+  position: absolute;
+  top: -4em;
+  padding: 0 20%;
+  border: 2px solid #2b2a6d;
+  background-color: white;
+  font-size: 1.2em;
+}
+
+.introduction_story p {
+  width: 100%;
+}
+
+.freedom {
+  padding-top: 3em;
+  line-height: 1.2em;
+}
+
+.freedom h3 {
+  color: #2b2a6d;
+}
+
+.freedom h5 {
+  width: 75%;
+}
+
+.freedom div {
+  padding-bottom: 2em;
 }

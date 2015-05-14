@@ -14,21 +14,30 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
       <header class="inner">
+        <img src="images/FabMo_G2_logo.png">
         <a id="forkme_banner" href="https://github.com/FabMo">View on GitHub</a>
       </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
+      <div class="introduction_header">
+        <div class="cartoon_container">
+          <img src="images/FabMo_Cartoon.png">
+        </div>
+        <div class="introduction_title">
+          <h2 class="at-last">At last ...</h2>
+          <h2 id="project_tagline">
+            <span class="innovative-control">Innovative Control for </span>
+            <span class="smart-tools">the <strong>Smart Tools</strong></span>
+            <span class="today"> of Today</span>
+            <span class="tomorrow"> and Tomorrow</span>
+          </h2>
+        </div>
+      </div>
 
       <div id="main_content" class="inner">
-        <div class="introduction_header">
-          <h1 id="project_title">FabMo™</h1>
-          <h2 id="project_tagline"><span class="at-last">At last... </span>Innovative Control for the <strong>Smart Tools</strong> of Today and Tomorrow</h2>
-          <img src="images/FabMo_G2_logo.png">
-        </div>
-        <div class="introduction_cartoon">
-          <img src="images/FabMo_Cartoon.png">
+        <div class="introduction_story">
           <p>
             FabMo is an open-source digital fabrication and motion platform of software and hardware. Initiated by the development team at ShopBot Tools, FabMo
             is meant to be adapted by and used by anyone, to run every smart tool imaginable, today and tomorrow.
@@ -37,7 +46,7 @@
         <div class="freedom">
           <div class="freedom_of_access">
             <h3>Freedom of Access</h3>
-            <h4>Access your digital fabrication tools from any device (whether a subtractive CNC tool or an additive 3D printer):</h4>
+            <h5>Access your digital fabrication tools from any device (whether a subtractive CNC tool or an additive 3D printer):</h4>
             <p>
               FabMo will link your network-enabled devices to your digital fab tool. Access a tool from your phone or via any computer. Control the tool or just
               monitor the action. Do it wirelessly, or hardwire with ethernet or USB to achieve industrial robustness. Use job files from your cloud storage,
@@ -46,7 +55,7 @@
           </div>
           <div class="freedom_to_create">
             <h3>Freedom to Create</h3>
-            <h4>Generate machine files from a wide range of programs (CAD/CAM) or from digital-fabrication apps:</h4>
+            <h5>Generate machine files from a wide range of programs (CAD/CAM) or from digital-fabrication apps:</h4>
             <p>
               FabMo supports a wide range of digital-fab workflows from a traditional CAD > CAM approach to the increasing range of "apps". Some of these "apps" are
               oriented to carrying out common jobs, others can produce complex digital-fab projects whose parameters can be customized by you! FabMo supports several
@@ -55,7 +64,7 @@
           </div>
           <div class="freedom_to_innovate">
             <h3>Freedom to Innovate</h3>
-            <h4>Modify FabMo to fit your needs or the needs of your specialized tools:</h4>
+            <h5>Modify FabMo to fit your needs or the needs of your specialized tools:</h4>
             <p>
               We're encouraging the open creation of a system that will evolve to meet the needs of the fabrication, motion, and robotics community and provide a platform for shared innovation.
               Several development system hardware options are available to designers, and the software organization is modular and understandable. At the lowest level,
@@ -64,23 +73,84 @@
             </p>
           </div>
         </div>
-        <div class="about_tabs">
-          <div class="fabmo_story">
+
+        <div class="fabmo_story">
+          <h2>The FabMo Story</h2>
+          <p>
+            We have a challenge in digital fabrication. Here's what it is:
+          </p>
+          <p>
+            The first aspect of the challenge is the CAD to CAM process for generating tool-path files. The difficulty of doing CAD and CAM creates a tough
+            hurdle, even if you are doing a simple project. The second is that running the files that are generated as CAM output is made complicated by
+            proprietary or idiosyncratic tool languages with tool connectivity that is restrictive with little interoperability.
+          </p>
+          <p>
+            With the FabMo digital fabrication and motion platform, we introduce a new concept for performing digital fabrication that rees access to tools
+            and opens new paths of use. FabMo takes advantage of progress in microprocessors and microcontrollers. These now offer new, low-cost options for managing
+            and driving digital fabrication equipment, both subractive and additive. On the other hand, the FabMo "Engine" looks out from a digital fab tool allowing
+            access via a wide range of wired and wireless routes, and from almost any type of device, utilizing multiple and expandable motion languages.  On the other
+            hand, the FabMo "Core" is a low-level, real-time, high-performance motion system.
+          </p>
+          <p>
+            FabMo also links a user's tool to apps and projects. Such apps will make created content for digital fabrication more available and customizable to
+            users' needs. FabMo links to environments for managing cloud apps, projects, and accounts.
+          </p>
+        </div>
+
+        <div class="product_info">
+          <div class="hardware">
+            <h2>The Hardware</h2>
+            <h4>(Options for Users and Developers)</h4>
             <p>
-              We have a challenge in digital fabrication. Here's what it is:
+              FabMo is based on two hardware components: 1) an SBC (single board computer) on which the "Engine" - interface, communications, and management systems - runs;
+              and 2) a 32bit ARM microprocessor the provides real-time environment for the "Core" motions functions.
+            </p>
+            <ul>
+              <li>
+                The SBC is loaded with a minimal linux install that underlies the FabMo Engine.
+              </li>
+              <li>
+                The real-time microcontroller is loaded with the G2 motion system. Our reference implementation uses the Atmel SAM3X8E. This microcontroller is found on the Arduino
+                Due, which makes the Due a useful development board. There real-time component of the system is also available in ShopBot's lastest V300 Control Card.
+                This Control Card modularly conncets to a wide range of ShopBot CNC interface boards that provide drivers and I/O buffering and isolation. In addition,
+                the real-time module is available as the V9 board from Synthetos with 4 stepper-motor drivers. These latter two systems support a variety of DIY, CNC tool
+                formats and building projects.
+              </li>
+            </ul>
+            <img src="images/FabMo_Hardware_1.png">
+            <img src="images/FabMo_Hardware_2.png">
+          </div>
+          <div class="software">
+            <h2>The Software</h2>
+            <h4>(Concepts and Organization)</h4>
+            <p>
+              FabMo is a collection of software components and well-documented APIs. The FabMo Engine, running in linux on the tool's SBC, relates a digital fab tool
+              to the world; handles local user needs; manages the flow of jobs to the real-time core.
             </p>
             <p>
-              The first aspect of the challenge is the CAD to CAM process
+              Programmed primarily in javascript with node.js, the FabMo Engine serves up a contemporary, mobile-friendly web interface. Several base modules provide
+              run-times for different digital-fab-tool path languages and serve as models for creating others.
+            </p>
+            <p>
+              More importantly, FabMo provides a framework for developing and hosting "apps" that will contribute a wide range of usability to digital fab tools.
+              An App Developer Kit provides instructions and a template for app development as well as several examples. Apps written in the languages of the web (HTML,
+              Javascript, Coffeescript, CSS, etc) so that as tools for the web grow, so do our tools for doing digital fabrication!
+            </p>
+            <p>
+              The FabMo "G2 Core" resides on the ARM microcontroller. It represents work of the Synthetos team. G2 is a sophisticated motion system: high speed (high
+              step rates), advanced "S" shaped ramping for smooth and efficient accelerations and decelerations, while running in real time.
             </p>
           </div>
-
         </div>
+
       </div>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
+        <img src="images/FabMo_G2_logo.png">
+
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
