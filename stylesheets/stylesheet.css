@@ -464,8 +464,12 @@ Small Device Styles
 #wrapper {
   width: 100%;
   background-color: white;
-  border-bottom: 3px solid #2b2a6d;
+  border-bottom: 2px solid #2b2a6d;
   border-top: 2px solid #2b2a6d;
+}
+
+#wrapper .product {
+  background-color: #f2f2f2;
 }
 
 #head_container {
@@ -542,7 +546,7 @@ Small Device Styles
 
 .product_info {
   position: relative;
-  background-color: white;
+  background-color: #f2f2f2;
 }
 
 .product_info h2, .product_info h4 {
@@ -590,6 +594,11 @@ Small Device Styles
   width: 32%;
   padding: 2em 2em 2em 5em;
 }*/
+
+.fabmo_story {
+  background-color: white;
+  padding: 2em 6em;
+}
 
 .fabmo_story h2 {
   color: #2b2a6d;
