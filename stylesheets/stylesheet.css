@@ -424,6 +424,42 @@ Small Device Styles
     font-size: 11px;
   }
 
+  #head_container {
+    max-width: 100% !important;
+  }
+
+  .cartoon_container {
+    max-width: 90% !important;
+    padding-top: 15% !important;
+  }
+
+  .cartoon_container img {
+    display: block !important;
+    float: none !important;
+    padding: 5em 0 !important;
+  }
+
+  .tagline_container {
+    display: block !important;
+    width: 100% !important;
+  }
+
+  .second_tagline {
+    width: 90% !important;
+    position: static;
+    font-size: 1.2em !important;
+  }
+
+  .first_tagline {
+    font-size: 2em !important;
+    position: static !important;
+    float: left;
+  }
+
+  .tagline {
+    width: 100% !important;
+  }
+
   .divider {
     display: none;
   }
@@ -537,7 +573,7 @@ Custom FabMo Styles
   height: auto;
 }
 
-.tagline span {
+.first_tagline {
   position: absolute;
   left: .5em;
   font-size: 4vmin;
