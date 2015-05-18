@@ -443,6 +443,10 @@ Small Device Styles
   .software {
     position: static !important;
   }
+
+  /*body {
+    width: 100%;
+  }*/
 }
 
 @media (max-width: 800px) {
