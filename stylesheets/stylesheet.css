@@ -441,18 +441,11 @@ Small Device Styles
   }
 }
 
-@media only screen (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .hardware, .software {
     color: white;
   }
 }
-
-@media only screen (min-width: 1500px) {
-  .hardware_image_1 {
-    width: 100%;
-  }
-}
-
 
 /*******************************************************************************
 Custom FabMo Styles
