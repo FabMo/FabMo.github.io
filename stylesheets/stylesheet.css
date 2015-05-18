@@ -435,6 +435,10 @@ Small Device Styles
   .hardware {
     padding-bottom: 0;
   }
+
+  .hardware_image_1 {
+    width: 50em;
+  }
 }
 
 @media only screen (min-width: 600px) {
@@ -443,8 +447,16 @@ Small Device Styles
   }
 }
 
+@media only screen (min-width: 1500px) {
+  .hardware_image_1 {
+    width: 100%;
+  }
+}
 
-/*CUSTOM*/
+
+/*******************************************************************************
+Custom FabMo Styles
+*******************************************************************************/
 
 .introduction_story {
   width: 60%;
@@ -574,7 +586,32 @@ Small Device Styles
 
 .hardware img {
   width: 42%;
+}
+
+.hardware_image_1 {
+  width: 43%;
+  display: inline-block;
   padding: 1em;
+  position: relative;
+  top: -1.4em;
+}
+
+.hardware_image_1 img {
+  width: 76%;
+}
+
+.hardware_image_2 {
+  width: 43%;
+  display: inline-block;
+  padding: 1em;
+}
+
+.hardware_image_2 img {
+  width: 100%;
+}
+
+.hardware_images p {
+  font-size: .9em;
 }
 
 .software {
@@ -590,43 +627,6 @@ Small Device Styles
   bottom:10%;
   border-left: 3px solid #2b2a6d;
 }
-
-
-.hardware_image_1 {
-  width: 43%;
-  display: inline-block;
-  padding: 1em;
-  position: relative;
-  top: -1.4em;
-}
-
-.hardware_images p {
-  font-size: .9em;
-}
-
-.hardware_image_1 img {
-  width: 76%;
-}
-
-.hardware_image_2 img {
-  width: 100%;
-}
-
-.hardware_image_2 {
-  width: 43%;
-  display: inline-block;
-  padding: 1em;
-}
-
-/*.hdwr1 {
-  width: 25%;
-  padding: 2em 2em 2em 8em;
-}
-
-.hdwr2 {
-  width: 32%;
-  padding: 2em 2em 2em 5em;
-}*/
 
 .fabmo_story {
   background-color: white;
@@ -656,8 +656,8 @@ header {
 
 footer {
   background-color: white;
-  max-height: 20em;
-
+  display: inline-block;
+  width: 100%;
 }
 
 #footer_wrap {
@@ -665,11 +665,14 @@ footer {
 }
 
 .logo_footer {
-  position: relative;
-  right: -45em;
-  top: -15em;
-  width: 20em;
+  display: inline-block;
+  width: 30%;
 }
+
+.logo_footer img {
+  width: 75%;
+}
+
 .logo_footer a{
   color: #2b2a6d;
 }
@@ -680,9 +683,9 @@ footer {
 }
 
 .resources {
-  width: 80%;
-  position: relative;
-  left: -10em;
+  padding: 0em 0 2em 6em;
+  display: inline-block;
+  width: 60%;
 }
 
 .resources h3 {
@@ -694,13 +697,11 @@ footer {
 
 .resources h5 {
   font-size: .9em;
+  display: inline-block;
 }
 
-.resources p {
-  color: #2b2a6d;
-  width: 90%;
-  font-size: 1.5em;
-  padding-bottom: .6em;
+.resources a {
+  display: inline;
 }
 
 .last-p {
@@ -711,8 +712,3 @@ footer {
   color: #2b2a6d;
   font-size: 1em;
 }
-
-/*footer p {
-  position: relative;
-  right: -50em;
-}*/
