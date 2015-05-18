@@ -55,15 +55,11 @@ body {
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  /*-webkit-font-smoothing: antialiased;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
-  /*font-weight: 700;*/
-  /*color:#222222;*/
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  /*letter-spacing: -1px;*/
 }
 
 h1 {
@@ -74,7 +70,6 @@ h1 {
 h2 {
   padding-bottom: 10px;
   font-size: 32px;
-  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h3 {
@@ -133,21 +128,6 @@ strong {
   font-weight: bold;
 }
 
-img {
-  /*position: relative;
-  margin: 0 auto;
-  max-width: 739px;
-  padding: 5px;
-  margin: 10px 0 10px 0;*/
-  /*border: 1px solid #ebebeb;*/
-/*
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;*/
-}
-
 p img {
   display: inline;
   margin: 0;
@@ -160,8 +140,6 @@ p img {
 pre, code {
   width: 100%;
   color: #222;
-  /*background-color: #fff;*/
-
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
 
@@ -286,15 +264,6 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
-#header_wrap {
-  /*background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);*/
-}
-
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
 }
@@ -304,7 +273,6 @@ Full-Width Styles
   color: #fff;
   font-size: 42px;
   font-weight: 700;
-  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #project_tagline {
@@ -312,7 +280,6 @@ Full-Width Styles
   font-size: 24px;
   font-weight: 300;
   background: none;
-  /*text-shadow: #111 0px 0px 10px;*/
 }
 
 #downloads {
@@ -606,6 +573,7 @@ Custom FabMo Styles
   padding-top: 0;
   position: relative;
   top: -3em;
+  padding-bottom: 0;
 }
 
 .freedom span {
@@ -625,6 +593,11 @@ Custom FabMo Styles
 
 .freedom div {
   padding-bottom: 2em;
+}
+
+.freedom p {
+  font-size: 1.1em;
+  line-height: 1.3em;
 }
 
 .product_info {
