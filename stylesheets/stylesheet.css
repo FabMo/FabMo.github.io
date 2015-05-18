@@ -436,7 +436,7 @@ Small Device Styles
   .cartoon_container img {
     display: block !important;
     float: none !important;
-    padding: 5em 0 !important;
+    padding: 5em 0 1em 0 !important;
   }
 
   .tagline_container {
@@ -537,7 +537,6 @@ Custom FabMo Styles
   border: 3px solid #2b2a6d;
   background-color: white;
   font-size: 1.2em;
-  /*padding: 0 10%;*/
   margin-bottom: 0;
 }
 
