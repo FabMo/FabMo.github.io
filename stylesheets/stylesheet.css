@@ -567,10 +567,9 @@ Small Device Styles
 
 .hardware {
   padding-right: 3em;
-  padding-bottom: 2em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   position: relative;
-  /*top: 3em;*/
+  font-size: 1.1em;
 }
 
 .hardware img {
@@ -580,7 +579,8 @@ Small Device Styles
 
 .software {
   position: absolute;
-  /*top: 3em;*/
+  line-height: 1.5;
+  font-size: 1.1em;
 }
 
 .divider {
@@ -597,7 +597,7 @@ Small Device Styles
   display: inline-block;
   padding: 1em;
   position: relative;
-  top: -2.5em;
+  top: -1.4em;
 }
 
 .hardware_images p {
