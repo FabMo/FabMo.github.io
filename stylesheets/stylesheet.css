@@ -439,11 +439,30 @@ Small Device Styles
   .hardware_image_1 {
     width: 50em;
   }
+
+  .software {
+    position: static !important;
+  }
 }
 
-@media (min-width: 800px) {
-  html {
-    background-color: red;
+@media (max-width: 800px) {
+  .product_info h2, .product_info h4 {
+    line-height: 1em !important;
+  }
+
+  .fabmo_story img {
+    width: 100% !important;
+  }
+
+  .footer_logo {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1350px) {
+  .hardware_image_2, .hardware_image_1 {
+    max-width: 90%;
+    width: 100% !important;
   }
 }
 
@@ -637,8 +656,12 @@ Custom FabMo Styles
 
 .fabmo_story img {
   width: 30%;
-  padding: 1em;
+  padding: .5em;
 }
+
+/*.last_story_img:after {
+  content: "";
+}*/
 
 .outer {
   background-color: #f2f2f2;
