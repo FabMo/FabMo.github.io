@@ -456,6 +456,14 @@ Small Device Styles
     float: left;
   }
 
+  .fabmo_story {
+    padding: 1.5em !important;
+  }
+
+  .freedom {
+    padding: 1.5em !important;
+  }
+
   .tagline {
     width: 100% !important;
   }
@@ -480,6 +488,14 @@ Small Device Styles
 
   .software {
     position: static !important;
+  }
+
+  .logo_footer {
+    float: right;
+  }
+
+  .logo_footer p {
+    display: none;
   }
 }
 
@@ -696,10 +712,6 @@ Custom FabMo Styles
   width: 30%;
   padding: .5em;
 }
-
-/*.last_story_img:after {
-  content: "";
-}*/
 
 .outer {
   background-color: #f2f2f2;
