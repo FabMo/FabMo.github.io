@@ -547,6 +547,7 @@ Small Device Styles
 .product_info {
   position: relative;
   background-color: #f2f2f2;
+  padding-top: 3em;
 }
 
 .product_info h2, .product_info h4 {
@@ -569,7 +570,7 @@ Small Device Styles
   padding-bottom: 2em;
   margin-bottom: 5em;
   position: relative;
-  top: 2em;
+  /*top: 3em;*/
 }
 
 .hardware img {
@@ -579,7 +580,7 @@ Small Device Styles
 
 .software {
   position: absolute;
-  top: 2em;
+  /*top: 3em;*/
 }
 
 .divider {
@@ -595,17 +596,16 @@ Small Device Styles
   width: 43%;
   display: inline-block;
   padding: 1em;
+  position: relative;
+  top: -2.5em;
 }
-
 
 .hardware_images p {
   font-size: .9em;
 }
 
 .hardware_image_1 img {
-  width: 75%;
-  position: relative;
-  top: -2.7em;
+  width: 76%;
 }
 
 .hardware_image_2 img {
