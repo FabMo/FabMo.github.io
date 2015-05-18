@@ -482,8 +482,8 @@ Small Device Styles
     padding-bottom: 0;
   }
 
-  .hardware_image_1 {
-    width: 50em;
+  .hardware_image_1 img {
+    width: 100% !important;
   }
 
   .software {
