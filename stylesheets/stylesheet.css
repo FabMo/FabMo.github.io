@@ -375,8 +375,10 @@ Small Device Styles
 *******************************************************************************/
 
 @media screen and (max-width: 480px) {
-  body {
+  html, body {
     font-size:14px;
+    width: 100% !important;
+    overflow-x: hidden !important;
   }
 
   #downloads {
@@ -443,10 +445,6 @@ Small Device Styles
   .software {
     position: static !important;
   }
-
-  /*body {
-    width: 100%;
-  }*/
 }
 
 @media (max-width: 800px) {
