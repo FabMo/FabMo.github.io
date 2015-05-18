@@ -431,6 +431,10 @@ Small Device Styles
     padding: 1.5em !important;
   }
 
+  .freedom h5 {
+    font-weight: bold !important;
+  }
+
   .tagline {
     width: 100% !important;
   }
