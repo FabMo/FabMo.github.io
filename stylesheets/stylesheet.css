@@ -559,7 +559,7 @@ Small Device Styles
 
 .hardware, .software {
   display: inline-block;
-  max-width: 40%;
+  width: 40%;
   padding-left: 6%;
   color: #2b2a6d;
 }
@@ -569,12 +569,17 @@ Small Device Styles
   padding-bottom: 2em;
   margin-bottom: 5em;
   position: relative;
-  top: 0em;
+  top: 2em;
+}
+
+.hardware img {
+  width: 42%;
+  padding: 1em;
 }
 
 .software {
-  position: relative;
-  top: 2.5em;
+  position: absolute;
+  top: 2em;
 }
 
 .divider {
@@ -583,6 +588,34 @@ Small Device Styles
   top:10%;
   bottom:10%;
   border-left: 3px solid #2b2a6d;
+}
+
+
+.hardware_image_1 {
+  width: 43%;
+  display: inline-block;
+  padding: 1em;
+}
+
+
+.hardware_images p {
+  font-size: .9em;
+}
+
+.hardware_image_1 img {
+  width: 75%;
+  position: relative;
+  top: -2.7em;
+}
+
+.hardware_image_2 img {
+  width: 100%;
+}
+
+.hardware_image_2 {
+  width: 43%;
+  display: inline-block;
+  padding: 1em;
 }
 
 /*.hdwr1 {
@@ -608,6 +641,11 @@ Small Device Styles
   color:  #F9B51C;
 }
 
+.fabmo_story img {
+  width: 30%;
+  padding: 1em;
+}
+
 .outer {
   background-color: #f2f2f2;
 }
@@ -618,7 +656,7 @@ header {
 
 footer {
   background-color: white;
-  max-height: 18em;
+  max-height: 20em;
 
 }
 
@@ -629,7 +667,7 @@ footer {
 .logo_footer {
   position: relative;
   right: -45em;
-  top: -10em;
+  top: -15em;
   width: 20em;
 }
 .logo_footer a{
@@ -638,6 +676,7 @@ footer {
 
 .logo_footer p {
   color: #2b2a6d;
+  text-align: right;
 }
 
 .resources {
@@ -650,7 +689,11 @@ footer {
   color: #F9B51C;
   font-size: 2em;
   text-decoration: underline;
-  padding-bottom: .5em;
+  padding-bottom: .2em;
+}
+
+.resources h5 {
+  font-size: .9em;
 }
 
 .resources p {

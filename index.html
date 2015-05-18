@@ -82,7 +82,7 @@
         <div class="fabmo_story">
           <h2>The <span>FabMo</span> Story</h2>
           <h5>
-            We have a challenge in digital fabrication. Here's what it is:
+            We have a challenge in digital fabrication.
           </h5>
           <p>
             The first aspect of the challenge is the CAD to CAM process for generating tool-path files. The difficulty of doing CAD and CAM creates a tough
@@ -100,52 +100,68 @@
             FabMo also links a user's tool to apps and projects. Such apps will make created content for digital fabrication more available and customizable to
             users' needs. FabMo links to environments for managing cloud apps, projects, and accounts.
           </p>
+
+          <img src="images/FabMo_Dashboard.png">
+          <img src="images/Handibot_Com_1.jpg">
+          <img src="images/Handibot-Com_2.jpg">
         </div>
 
         <div class="product_info outer">
           <div id="wrapper product">
-          <div class="hardware">
-            <h2>The Hardware</h2>
-            <h4>(Options for Users and Developers)</h4>
-            <p>
-              FabMo is based on two hardware components: 1) an SBC (single board computer) on which the "Engine" - interface, communications, and management systems - runs;
-              and 2) a 32bit ARM microprocessor the provides real-time environment for the "Core" motions functions.
-            </p>
-            <ul>
-              <li>
-                The SBC is loaded with a minimal linux install that underlies the FabMo Engine.
-              </li>
-              <li>
-                The real-time microcontroller is loaded with the G2 motion system. Our reference implementation uses the Atmel SAM3X8E. This microcontroller is found on the Arduino
-                Due, which makes the Due a useful development board. There real-time component of the system is also available in ShopBot's lastest V300 Control Card.
-                This Control Card modularly conncets to a wide range of ShopBot CNC interface boards that provide drivers and I/O buffering and isolation. In addition,
-                the real-time module is available as the V9 board from Synthetos with 4 stepper-motor drivers. These latter two systems support a variety of DIY, CNC tool
-                formats and building projects.
-              </li>
-            </ul>
-          </div>
-          <div class="divider"></div>
-          <div class="software">
-            <h2>The Software</h2>
-            <h4>(Concepts and Organization)</h4>
-            <p>
-              FabMo is a collection of software components and well-documented APIs. The FabMo Engine, running in linux on the tool's SBC, relates a digital fab tool
-              to the world; handles local user needs; manages the flow of jobs to the real-time core.
-            </p>
-            <p>
-              Programmed primarily in javascript with node.js, the FabMo Engine serves up a contemporary, mobile-friendly web interface. Several base modules provide
-              run-times for different digital-fab-tool path languages and serve as models for creating others.
-            </p>
-            <p>
-              More importantly, FabMo provides a framework for developing and hosting "apps" that will contribute a wide range of usability to digital fab tools.
-              An App Developer Kit provides instructions and a template for app development as well as several examples. Apps written in the languages of the web (HTML,
-              Javascript, Coffeescript, CSS, etc) so that as tools for the web grow, so do our tools for doing digital fabrication!
-            </p>
-            <p>
-              The FabMo "G2 Core" resides on the ARM microcontroller. It represents work of the Synthetos team. G2 is a sophisticated motion system: high speed (high
-              step rates), advanced "S" shaped ramping for smooth and efficient accelerations and decelerations, while running in real time.
-            </p>
-          </div>
+            <div class="hardware">
+              <h2>The Hardware</h2>
+              <h4>(Options for Users and Developers)</h4>
+              <p>
+                FabMo is based on two hardware components: 1) an SBC (single board computer) on which the "Engine" - interface, communications, and management systems - runs;
+                and 2) a 32bit ARM microprocessor the provides real-time environment for the "Core" motions functions.
+              </p>
+              <ul>
+                <li>
+                  The SBC is loaded with a minimal linux install that underlies the FabMo Engine.
+                </li>
+                <li>
+                  The real-time microcontroller is loaded with the G2 motion system. Our reference implementation uses the Atmel SAM3X8E. This microcontroller is found on the Arduino
+                  Due, which makes the Due a useful development board. There real-time component of the system is also available in ShopBot's lastest V300 Control Card.
+                  This Control Card modularly conncets to a wide range of ShopBot CNC interface boards that provide drivers and I/O buffering and isolation. In addition,
+                  the real-time module is available as the V9 board from Synthetos with 4 stepper-motor drivers. These latter two systems support a variety of DIY, CNC tool
+                  formats and building projects.
+                </li>
+              </ul>
+
+              <div class="hardware_images">
+                <div class="hardware_image_1">
+                  <img src="images/FabMo_Hardware_1.png">
+                  <p>BBB and Due: a Basic Development System</p>
+                </div>
+                <div class="hardware_image_2">
+                  <img src="images/FabMo_Hardware_2.png">
+                  <p>BBB and ShopBot Control Card and CNC Interface with Motor Drivers (shown on back): a DIY CNC builder system</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+            <div class="software">
+              <h2>The Software</h2>
+              <h4>(Concepts and Organization)</h4>
+              <p>
+                FabMo is a collection of software components and well-documented APIs. The FabMo Engine, running in linux on the tool's SBC, relates a digital fab tool
+                to the world; handles local user needs; manages the flow of jobs to the real-time core.
+              </p>
+              <p>
+                Programmed primarily in javascript with node.js, the FabMo Engine serves up a contemporary, mobile-friendly web interface. Several base modules provide
+                run-times for different digital-fab-tool path languages and serve as models for creating others.
+              </p>
+              <p>
+                More importantly, FabMo provides a framework for developing and hosting "apps" that will contribute a wide range of usability to digital fab tools.
+                An App Developer Kit provides instructions and a template for app development as well as several examples. Apps written in the languages of the web (HTML,
+                Javascript, Coffeescript, CSS, etc) so that as tools for the web grow, so do our tools for doing digital fabrication!
+              </p>
+              <p>
+                The FabMo "G2 Core" resides on the ARM microcontroller. It represents work of the Synthetos team. G2 is a sophisticated motion system: high speed (high
+                step rates), advanced "S" shaped ramping for smooth and efficient accelerations and decelerations, while running in real time.
+              </p>
+            </div>
         </div>
         </div>
 
@@ -157,16 +173,19 @@
       <footer class="inner">
         <div class="resources">
           <h3>Resources</h3>
-          <!-- <p>
-            Read about the philosophy behind the Handibot Open Innovation Platform and FabMo.
-          </p>
-          <p class="last-p">Understand the organization of FabMo and our concepts for different types of Smart Tool Apps.
-          </p> -->
 
           <h5>
             Download the App Programming Intro and Example:
           </h5>
           <a href="http://www.github.com/shopbottools/fabmo-example-app">http://www.github.com/shopbottools/fabmo-example-app</a>
+
+          <h5>Download the Go! Fabmo handout</h5>
+          <a href="http://gofabmo.org/FabMo%20Handout_May2015.pdf">http://gofabmo.org/FabMo%20Handout_May2015.pdf</a>
+
+        <h5>
+          Read about the philosophy behind the Handibot Open Innovation Platform and FabMo.
+        </h5>
+        <a href="http://handibot.com/open-source.php">http://handibot.com/open-source.php</a>
 
           <h5>
             And find discussions on the Handibot App Developer Forum (just getting started):
