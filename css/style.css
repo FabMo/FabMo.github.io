@@ -1,0 +1,62 @@
+.container {
+	width: 500px;
+	margin: 0 auto;
+	background: inherit;
+}
+
+html {
+	background: url("../images/bg.png");
+	background-repeat: repeat;
+}
+body {
+	background: inherit;
+}
+pre code {
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+p {
+    font-size: 1.1em;
+	line-height: 1.5;
+}
+h4 {
+	margin-top : 0.75em;
+}
+
+ul {
+	font-size: 1.1em;
+	line-height: 1.5;	
+}
+
+.download-button {
+	font-family:  Verdana, Geneva, sans-serif;
+    border: 3px solid #59A24F;
+    font-size: 18px;
+	background-color: #56BA4A;
+    color: white;
+    padding: 0.5em 1em;
+    margin-right: 2em;
+    margin-top: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    display: inline-block;
+    border-radius: 0.5em;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
+    user-select: none;  
+}
+
+.download-button:hover {
+	background-color: #59A24F;
+	border-color: #56BA4A;
+	color: white;
+}
+
+.download-button:visited {
+	color: white;
+}

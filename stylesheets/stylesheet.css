@@ -244,7 +244,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 850px;
+  max-width: 1000px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -253,7 +253,7 @@ Full-Width Styles
   display: block;
   position: absolute;
   top:0;
-  right: 10px;
+  right: 15px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
   color: #fff;
@@ -264,8 +264,27 @@ Full-Width Styles
   border-bottom-right-radius: 2px;
 }
 
+#fabmo_logo {
+  display: block;
+  position: absolute;
+  top:31%;
+  left: 30px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+}
+
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+}
+
+#header_img img {
+  width:100%;
+}
+
+#diagram_img img {
+  width:90%;
+  position: relative;
+  margin-left: 10%;
 }
 
 #project_title {
@@ -395,6 +414,15 @@ Small Device Styles
     max-width: 100% !important;
   }
 
+  #fabmo_logo {
+    display: block;
+    position: relative;
+    top:30;
+    left: 30px;
+    z-index: 10;
+    padding: 10px 50px 10px 10px;
+  }
+
   .cartoon_container {
     max-width: 90% !important;
     padding-top: 15% !important;
@@ -502,12 +530,16 @@ Custom FabMo Styles
 *******************************************************************************/
 
 .introduction_story {
-  width: 60%;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   position: relative;
-  top: -6em;
-  border: 3px solid #2b2a6d;
-  background-color: white;
-  font-size: 1.2em;
+  top: 1em;
+  padding-left: 1em;
+  padding-right:.5em;
+  padding-bottom: 1em;
+  background-color: lightgrey;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 
@@ -574,9 +606,9 @@ Custom FabMo Styles
 .freedom {
   line-height: 1.2em;
   margin: 0 auto;
-  padding-top: 0;
+  padding-top: 1em;
   position: relative;
-  top: -3em;
+  top: 0em;
   padding-bottom: 0;
 }
 
@@ -586,7 +618,6 @@ Custom FabMo Styles
 }
 
 .freedom h3 {
-  color: #2b2a6d;
   font-size: 2em;
 }
 
@@ -596,7 +627,7 @@ Custom FabMo Styles
 }
 
 .freedom div {
-  padding-bottom: 2em;
+  padding-bottom: 0em;
 }
 
 .freedom p {
