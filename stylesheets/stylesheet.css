@@ -282,9 +282,15 @@ Full-Width Styles
 }
 
 #diagram_img img {
-  width:90%;
-  position: relative;
   margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+  position: relative;
+  top: 1em;
+  padding-left: 1em;
+  padding-right:.5em;
+  padding-bottom: 1em;
+  background-color: white;
 }
 
 #project_title {
@@ -650,8 +656,6 @@ Custom FabMo Styles
 }
 
 .hardware, .software {
-  display: inline-block;
-  width: 40%;
   padding-left: 6%;
   color: #2b2a6d;
 }
@@ -664,11 +668,14 @@ Custom FabMo Styles
 }
 
 .hardware img {
-  width: 42%;
+  width: 48%;
+  margin-left: 20%;
+  margin-right: 20%;
+  position: relative;
 }
 
 .hardware_image_1 {
-  width: 43%;
+  width: 48%;
   display: inline-block;
   padding: 1em;
   position: relative;
@@ -686,7 +693,7 @@ Custom FabMo Styles
 }
 
 .hardware_image_2 img {
-  width: 100%;
+  width: 80%;
 }
 
 .hardware_images p {
@@ -721,8 +728,9 @@ Custom FabMo Styles
 }
 
 .fabmo_story img {
-  width: 30%;
-  padding: .5em;
+  width: 90%;
+  position: relative;
+  top: -1em;
 }
 
 .outer {

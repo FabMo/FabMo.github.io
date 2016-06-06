@@ -31,7 +31,7 @@
 
         <div class="introduction_story">
           <p>
-            <strong>FabMo</strong> is an open-source, digital fabrication and motion platform of software and hardware. Originated by the Handibot team at ShopBot Tools, the FabMo Platform encompases a powerful core motion system, G2, created by Synthetos. FabMo is available to be used and adapted by anyone, to run and manage every digital smart tool imaginable, today and tomorrow to provide users a standard interface to equipment.</p>
+            <strong>FabMo</strong> is an open-source, digital fabrication and motion platform of software and hardware. Originated by the Handibot team at ShopBot Tools, the FabMo Platform encompases a powerful core motion system, G2, created by Synthetos. FabMo is available to be used and adapted by anyone, to run and manage every digital smart tool imaginable, today and tomorrow to provide users a standard interface to their fabrication equipment.</p>
           <p>
             <strong>FabMo</strong> offers digital-fabbers, developers, and OEMs 3 essential <strong>freedoms</strong>.
           </p>
@@ -60,11 +60,10 @@
             <h3>Freedom to Innovate</h3>
             <h4><strong>Modify FabMo to fit your needs or the needs of your specialized fabrication tools</strong></h4>
             <p>
-              We're encouraging the development of an open system that will evolve to meet the needs of the fabrication, motion, and robotics community and provide a platform for shared innovation. Several development-system hardware options are available for hardware designers, and the software is organized to be modular and understandable. At the lowest level,
-              advanced, fast, and smooth motion is provided by G2 - a real-time, motion system core running on a dedicated microcontroller. At higher levels, a FabMo SBC manages files, projects, and apps and links your tool to the world.
+              We're encouraging the development of a system that will meet the needs of the fabrication, motion, and robotics community and provide an <strong>open platform for shared innovation</strong>. Several development-system hardware options are available for hardware designers, and the software is organized to be modular and understandable. At the lowest level,
+              advanced, fast, and smooth motion is provided by G2 - a real-time, motion system core running on a dedicated microcontroller. At higher levels, a FabMo SBC manages files, projects, and apps and links a tool to the world.
             </p>
           </div>
-        <img id="diagram_img" src="images/FabMoDiagram_JUN2016_v03.png">
         </div>
 
         <div class="fabmo_story">
@@ -86,12 +85,10 @@
             FabMo links a fabrication tool to apps and projects. Such apps will make created content for digital fabrication more available and customizable to
             users' needs. FabMo links to environments for managing cloud apps, projects, and accounts.
           </p>
-
-          <img src="images/FabMo_Dashboard.png">
-          <img src="images/Handibot_Com_1.jpg">
-          <img class="last_story_image" src="images/Handibot-Com_2.jpg">
+          <img id="diagram_img" src="images/fabmo_diagram_v03.png">
+          <p><strong>Diagram of FabMo.</strong> Top line shows general embedding of FabMo for digital Fabrication tool between a device in the world and its motion system, the electronic and mechanical hardware of the tool. The lower portion shows our current ShopBot/Handibot instantiation of FabMo as well as other options available to developers and OEMs.</p>
         </div>
-
+          
         <div class="product_info outer">
           <div id="wrapper product">
             <div class="hardware">
@@ -112,22 +109,9 @@
                   the real-time module is available as the "V9-TinyG2" board from Synthetos with 4 stepper-motor drivers. Either of these latter two systems will interface to a wide range of motors and hardware and can be used for creating a variety of DIY, digital fab tools and projects.
                 </li>
               </ul>
-
-              <div class="hardware_images">
-                <div class="hardware_image_1">
-                  <img src="images/FabMo_Hardware_1.png">
-                  <p>BBB and Due: a Basic Development System</p>
-                </div>
-                <div class="hardware_image_2">
-                  <img src="images/FabMo_Hardware_2.png">
-                  <p>BBB and ShopBot Control Card and CNC Interface with Motor Drivers (shown on backside on right): a DIY CNC builder system</p>
-                </div>
-              </div>
             </div>
 
-            <div class="divider"></div>
-
-            <div class="software">
+            <div class="hardware">
               <h2>The Software</h2>
               <h4>(Concepts and Organization)</h4>
               <p>
@@ -147,38 +131,16 @@
                 The FabMo "G2 Core" resides on the ARM microcontroller. It represents work of the Synthetos team. G2 is a sophisticated motion system: high speed (high
                 step rates), advanced "S" shaped ramping for smooth and efficient accelerations and decelerations, while running in real time and not requiring fussing with PC timing functions or USB converters.
               </p>
+              <p></p>
+                  <img src="images/FabMo_Dashboard.png">
+              <p><strong>FabMo "Dashboard" Interface.</strong> Showing system, apps, and (optionally displayed) Digital Read Out (DRO) </p> 
+                  <img src="images/Handibot_Com_1.jpg">
+              <p><strong>FabMo "Dashboard" Interface.</strong> Showing system, apps, and (optionally displayed) Digital Read Out (DRO) 
             </div>
           </div>
         </div>
 
-      </div>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer>
-        <div class="resources">
-          <h3>Resources</h3>
-
-          <h5>Download the</h5>
-          <a href="http://gofabmo.org/FabMo%20Handout_May2015.pdf"> Go! Fabmo handout</a>
-          <br>
-          <h5>Download </h5>
-          <a href="http://gofabmo.org/apps.html">Information on App Programming and Example App Listing</a>
-          <br>
-          <h5>Find discussions on the</h5>
-          <a href="http://www.handibot.com/forum">Handibot App Developer Forum (just getting started)</a>
-          <br>
-          <h5>Read about the philosophy behind the</h5>
-          <a href="http://handibot.com/open-source.php">Handibot Open Innovation Platform and FabMo.</a>
-        </div>
-
-        <div class="logo_footer">
-          <img src="images/FabMo_G2_logo.png">
-          <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-        </div>
-      </footer>
-    </div>
 
     <script type="text/javascript">
       var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -192,19 +154,9 @@
     </script>
 
 
-
- 
-        <h3>API Documentation</h3>
-        <p>Check out <a href="api/classes/FabMoDashboard.html">the full API documentation</a> for more details.
-
-        <h3>Example Apps</h3>
-        <p>There are lots of good examples online of apps that use fabmo.js - Choose one that's similar to your application:</p>
-        <ul>
-            <li> <a href="http://fabmo.github.io/fabmo-example-app/">The Official FabMo Example App</a> - Covers a lot of the API in simple examples.</li>
-            <li> <a href="http://fabmo.github.io/fabmo-touchandgo-app/">FabMo Touch-and-Go</a> - Runs immediate code, interacts with configuration, responds to status reports.</li>
-            <li> <a href="http://fabmo.github.io/fabmo-holecutter-app/">Hole Cutter</a> - Submits a job based on input parameters.</li>
-            <li> <a href="http://fabmo.github.io/fabmo-terrainman-app/">Terrainman</a> - More complex job based on input parameters.</li>
-            <li> <a href="http://fabmo.github.io/fabmo-the-news-app/">Handibot News</a> - Display a simple page from an external site.</li>
-        </ul>
     </body>
 </html>
+
+
+
+ 
