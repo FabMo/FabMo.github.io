@@ -409,6 +409,9 @@ Small Device Styles
   h6 {
     font-size: 12px;
   }
+.introduction_story p {
+  font-size: .75em;
+}
 
   code, pre {
     min-width: 320px;
