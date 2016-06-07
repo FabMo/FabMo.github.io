@@ -498,6 +498,7 @@ Small Device Styles
   .resources {
     width: 90% !important;
     padding-left: 1.5em !important;
+    padding-top: 2em;
   }
 
   .logo_footer {
@@ -544,7 +545,7 @@ Custom FabMo Styles
   padding-left: 1em;
   padding-right:.5em;
   padding-bottom: 1em;
-  background-color: lightgrey;
+  background-color: #FFF4D9;
   font-size: 1.5em;
   margin-bottom: 0;
 }
@@ -611,11 +612,8 @@ Custom FabMo Styles
 
 .freedom {
   line-height: 1.2em;
-  margin: 0 auto;
   padding-top: 1em;
   position: relative;
-  top: 0em;
-  padding-bottom: 0;
 }
 
 .freedom span {
@@ -625,6 +623,10 @@ Custom FabMo Styles
 
 .freedom h3 {
   font-size: 2em;
+  padding-bottom: -2em;
+}
+
+.freedom h4 {
 }
 
 .freedom h5 {
@@ -633,7 +635,6 @@ Custom FabMo Styles
 }
 
 .freedom div {
-  padding-bottom: 0em;
 }
 
 .freedom p {
@@ -742,22 +743,23 @@ header {
 }
 
 footer {
-  background-color: white;
   display: inline-block;
   width: 100%;
 }
 
 #footer_wrap {
-  background-color: white;
+  padding-top:3em;
 }
 
 .logo_footer {
-  display: inline-block;
-  width: 30%;
+  padding-top: 1em;
+  width: 20%;
 }
 
 .logo_footer img {
-  width: 75%;
+  padding-top: 1em;
+  width: 85%;
+  margin-left:14em;
 }
 
 .logo_footer a{
@@ -770,21 +772,32 @@ footer {
 }
 
 .resources {
-  padding: 0em 0 2em 6em;
-  display: inline-block;
-  width: 60%;
+  width: 100%;
+  position: relative;
+  top: 1em;
+  padding-left: 5em;
+  padding-right:4em;
+  padding-bottom: 1em;
+  background: url("../images/bg.png");
+  background-repeat: repeat;
 }
 
 .resources h3 {
-  color: #F9B51C;
   font-size: 2em;
-  text-decoration: underline;
   padding-bottom: .2em;
+}
+
+.resources h4 {
+  line-height: 1em;
 }
 
 .resources h5 {
   font-size: .9em;
   display: inline-block;
+}
+
+.resources p {
+  padding-top: -1em;
 }
 
 .resources a {
