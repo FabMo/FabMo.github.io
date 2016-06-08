@@ -267,8 +267,9 @@ Full-Width Styles
 #fabmo_logo {
   display: block;
   position: absolute;
-  top:31%;
+  top: 35%;
   left: 30px;
+  width: 33%;
   z-index: 10;
   padding: 10px 50px 10px 10px;
 }
@@ -277,8 +278,10 @@ Full-Width Styles
   padding: 50px 10px 30px 10px;
 }
 
-#header_img img {
+#header_img {
   width:100%;
+  background-color: #222;
+  opacity: 0.5;
 }
 
 #diagram_img img {
@@ -291,6 +294,13 @@ Full-Width Styles
   padding-right:.5em;
   padding-bottom: 1em;
   background-color: white;
+}
+
+#dash_img, #apps_img  {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  padding-bottom: 1em;
 }
 
 #project_title {
@@ -360,6 +370,24 @@ Full-Width Styles
   background: #212121;
 }
 
+/*******************************************************************************
+Medium Device Styles
+*******************************************************************************/
+@media screen and (max-width: 900px) {
+   #fabmo_logo {
+    top: 20%;
+    width: 40%;
+  }
+  
+  #diagram_img, #dash_img, #apps_img  {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1em;
+  }
+}
+
+  
 
 
 /*******************************************************************************
@@ -424,12 +452,8 @@ Small Device Styles
   }
 
   #fabmo_logo {
-    display: block;
-    position: relative;
-    top:30;
-    left: 30px;
-    z-index: 10;
-    padding: 10px 50px 10px 10px;
+    top: 12%;
+    width: 60%;
   }
 
   .cartoon_container {
@@ -480,6 +504,12 @@ Small Device Styles
     display: none;
   }
 
+  #diagram_img, #dash_img, #apps_img  {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 1em;
+  }
+  
   .hardware, .software {
     min-width: 90%;
     max-width: 100%;
