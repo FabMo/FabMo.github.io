@@ -1,0 +1,14 @@
+{
+	"packages" : [
+ 		{
+			"product" : "FabMo-Engine",
+			"os" : "linux",
+			"platform" : "edison",
+			"version" : "v1.2.2",
+			"changelog" : " * Temporarily remove Bonjour support",
+			"url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.2/FabMo-Engine_linux_edison_v1-2-2.fmp"
+
+ 		}
+
+	]
+}
