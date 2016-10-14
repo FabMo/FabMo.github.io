@@ -8,6 +8,14 @@
 			"changelog" : " * Temporarily remove Bonjour support",
 			"url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.2/FabMo-Engine_linux_edison_v1-2-2.fmp"
 
+ 		},
+		{
+			"product" : "FabMo-Updater",
+			"os" : "linux",
+			"platform" : "edison",
+			"version" : "v2.1.4",
+			"changelog" : " * Communicate entire log buffer to freshly-connected clients",
+			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.4/fabmo-updater-linux-edison-v2.1.4.fmp"
  		}
 
 	]
