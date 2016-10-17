@@ -10,22 +10,14 @@
 
  		},
 		{
-			"product" : "FabMo-Updater",
-			"os" : "linux",
-			"platform" : "edison",
-			"version" : "v2.1.4",
-			"changelog" : " * Communicate entire log buffer to freshly-connected clients",
-			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.4/fabmo-updater-linux-edison-v2.1.4.fmp"
- 		},
-		{
-			"product": "FabMo-Updater",
-			"os": "linux",
-			"platform": "edison",
-			"system": "handibot",
-			"updaterNeeded": "v2.0.0",
-			"version": "v2.1.6",
-			"md5": "602056f1ad8061a0b528df588a3360b6",
-			"url":"https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.6/fabmo-updater-linux-edison-handibot-v2.1.6.fmp"
+			   "os": "linux",
+			   "product": "FabMo-Updater",
+			   "platform": "edison",
+			   "system": "handibot",
+			   "updaterNeeded": "v2.0.0",
+			   "version": "v2.1.8",
+			   "md5": "d41d8cd98f00b204e9800998ecf8427e",
+			   "changelog" : " * Fix order of name/password fields"
 		}
 	]
 }
