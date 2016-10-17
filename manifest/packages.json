@@ -17,7 +17,8 @@
 			   "updaterNeeded": "v2.0.0",
 			   "version": "v2.1.8",
 			   "md5": "d41d8cd98f00b204e9800998ecf8427e",
-			   "changelog" : " * Fix order of name/password fields"
+			   "changelog" : " * Fix order of name/password fields",
+			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater_linux_edison_v2-1-8.fmp"
 		}
 	]
 }
