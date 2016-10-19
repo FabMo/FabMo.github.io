@@ -11,6 +11,17 @@
  		},
 		{
 			   "os": "linux",
+			   "product": "FabMo-Engine",
+			   "platform": "edison",
+			   "system": "handibot",
+			   "updaterNeeded": "v2.0.0",
+			   "version": "v1.2.5",
+			   "md5": "a91f11055093fce520b3a6909da058a0",
+			   "changelog" : " * Improved support for automatic updates in the configuration app",
+			   "url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.5/fabmo-engine-linux-edison-v1-2-5.fmp"
+		}
+		{
+			   "os": "linux",
 			   "product": "FabMo-Updater",
 			   "platform": "edison",
 			   "system": "handibot",
