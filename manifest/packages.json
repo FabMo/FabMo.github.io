@@ -30,6 +30,17 @@
 			   "md5": "d41d8cd98f00b204e9800998ecf8427e",
 			   "changelog" : " * Fix order of name/password fields",
 			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater_linux_edison_v2-1-8.fmp"
+		},
+		{
+			   "os": "linux",
+			   "product": "FabMo-Updater",
+			   "platform": "edison",
+			   "system": "handibot",
+			   "updaterNeeded": "v2.0.0",
+			   "version": "v2.1.9",
+			   "changelog" : " * Fix re-locking of partition, which was not always happening",
+			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater-linux-edison-v2-1-8.fmp"
+			   "md5": "ecec71a676b521c812ec0b2d6bb1d41f"
 		}
 	]
 }
