@@ -39,7 +39,7 @@
 			   "updaterNeeded": "v2.0.0",
 			   "version": "v2.1.9",
 			   "changelog" : " * Fix re-locking of partition, which was not always happening",
-			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater-linux-edison-v2-1-8.fmp",
+			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.9/FabMo-Updater-linux-edison-v2-1-8.fmp",
 			   "md5": "ecec71a676b521c812ec0b2d6bb1d41f"
 		}
 	]
