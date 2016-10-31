@@ -53,6 +53,18 @@
 			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.10/FabMo-Updater-linux-edison-v2-1-10.fmp",
 			"md5": "e37be5fe4f336847da37f9015a37a82a"
 
+		},
+		{
+			"os": "linux",
+			"product": "FabMo-Updater",
+			"platform": "edison",
+			"system": "handibot",
+			"updaterNeeded": "v2.0.0",
+			"version": "v2.1.11",
+			"md5": "d41d8cd98f00b204e9800998ecf8427e"
+			"changelog" : " * Cleanup version sorting\n * Various bugfixes",
+			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.11/fabmo-updater-linux-edison-v2-1-11.fmp",
+			
 		}
 	]
 }
