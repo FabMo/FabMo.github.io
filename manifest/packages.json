@@ -10,37 +10,48 @@
 
  		},
 		{
-			   "os": "linux",
-			   "product": "FabMo-Engine",
-			   "platform": "edison",
-			   "system": "handibot",
-			   "updaterNeeded": "v2.0.0",
-			   "version": "v1.2.5",
-			   "md5": "a91f11055093fce520b3a6909da058a0",
-			   "changelog" : " * Improved support for automatic updates in the configuration app",
-			   "url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.5/fabmo-engine-linux-edison-v1-2-5.fmp"
+			"os": "linux",
+			"product": "FabMo-Engine",
+			"platform": "edison",
+			"system": "handibot",
+			"updaterNeeded": "v2.0.0",
+			"version": "v1.2.5",
+			"md5": "a91f11055093fce520b3a6909da058a0",
+			"changelog" : " * Improved support for automatic updates in the configuration app",
+			"url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.5/fabmo-engine-linux-edison-v1-2-5.fmp"
 		},
 		{
-			   "os": "linux",
-			   "product": "FabMo-Updater",
-			   "platform": "edison",
-			   "system": "handibot",
-			   "updaterNeeded": "v2.0.0",
-			   "version": "v2.1.8",
-			   "md5": "d41d8cd98f00b204e9800998ecf8427e",
-			   "changelog" : " * Fix order of name/password fields",
-			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater_linux_edison_v2-1-8.fmp"
+			"os": "linux",
+			"product": "FabMo-Engine",
+			"platform": "edison",
+			"system": "handibot",
+			"updaterNeeded": "v2.0.0",
+			"version": "v1.2.6",
+			"md5": "a5c6e58f4de3b88e87cb5b2143696f61"
+			"changelog" : " * Hotfix for 'sandbox' iframe issue\n * Fix password field type and focus model",
+			"url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.6/fabmo-engine_linux_edison_v1.2.6.fmp"
 		},
 		{
-   "os": "linux",
-   "product": "FabMo-Updater",
-   "platform": "edison",
-   "system": "handibot",
-   "updaterNeeded": "v2.0.0",
-   "version": "v2.1.10",
-			   "changelog" : " * Fix manifest issues\n * Code Cleanup",
-			   "url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.10/FabMo-Updater-linux-edison-v2-1-10.fmp",
-   "md5": "e37be5fe4f336847da37f9015a37a82a"
+			"os": "linux",
+			"product": "FabMo-Updater",
+			"platform": "edison",
+			"system": "handibot",
+			"updaterNeeded": "v2.0.0",
+			"version": "v2.1.8",
+			"md5": "d41d8cd98f00b204e9800998ecf8427e",
+			"changelog" : " * Fix order of name/password fields",
+			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.8/FabMo-Updater_linux_edison_v2-1-8.fmp"
+		},
+		{
+			"os": "linux",
+			"product": "FabMo-Updater",
+			"platform": "edison",
+			"system": "handibot",
+			"updaterNeeded": "v2.0.0",
+			"version": "v2.1.10",
+			"changelog" : " * Fix manifest issues\n * Code Cleanup",
+			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.10/FabMo-Updater-linux-edison-v2-1-10.fmp",
+			"md5": "e37be5fe4f336847da37f9015a37a82a"
 
 		}
 	]
