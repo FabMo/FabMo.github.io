@@ -27,7 +27,7 @@
 			"system": "handibot",
 			"updaterNeeded": "v2.0.0",
 			"version": "v1.2.6",
-			"md5": "a5c6e58f4de3b88e87cb5b2143696f61"
+			"md5": "a5c6e58f4de3b88e87cb5b2143696f61",
 			"changelog" : " * Hotfix for 'sandbox' iframe issue\n * Fix password field type and focus model",
 			"url" : "https://github.com/FabMo/FabMo-Engine/releases/download/v1.2.6/fabmo-engine_linux_edison_v1.2.6.fmp"
 		},
