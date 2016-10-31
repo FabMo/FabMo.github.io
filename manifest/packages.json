@@ -63,8 +63,7 @@
 			"version": "v2.1.11",
 			"md5": "d41d8cd98f00b204e9800998ecf8427e",
 			"changelog" : " * Cleanup version sorting\n * Various bugfixes",
-			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.11/fabmo-updater-linux-edison-v2-1-11.fmp",
-			
+			"url" : "https://github.com/FabMo/FabMo-Updater/releases/download/v2.1.11/fabmo-updater-linux-edison-v2-1-11.fmp"
 		}
 	]
 }
