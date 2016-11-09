@@ -1,8 +1,6 @@
 {"packages":
  [
-   {"os":"linux","product":"FabMo-Engine","platform":"edison","system":"handibot","updaterNeeded":"v2.0.0","version":"v1.2.6-gc79c8bd-dev","md5":"d41d8cd98f00b204e9800998ecf8427e","url":"https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_edison_v1.2.6-gc79c8bd-dev.fmp","changelog":"","date":"2016-11-08T17:25:35.208Z"},
-   {"os":"darwin","product":"FabMo-Engine","platform":"generic","system":"handibot","updaterNeeded":"v2.0.0","version":"v1.2.6-gc79c8bd-dev","md5":"d41d8cd98f00b204e9800998ecf8427e","url":"https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_edison_v1.2.6-gc79c8bd-dev.fmp","changelog":"","date":"2016-11-09T17:25:35.208Z"},
-   {"os":"darwin","product":"FabMo-Engine","platform":"generic","system":"handibot","updaterNeeded":"v2.0.0","version":"v1.2.6-gc79c8bd-dev","md5":"d41d8cd98f00b204e9800998ecf8427e","url":"https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_edison_v1.2.6-gc79c8bd-dev.fmp","changelog":"","date":"2016-11-10T17:25:35.208Z"}
+   {"os":"linux","product":"FabMo-Engine","platform":"edison","system":"handibot","updaterNeeded":"v2.0.0","version":"v1.2.6-gc79c8bd-dev","md5":"d41d8cd98f00b204e9800998ecf8427e","url":"https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_edison_v1.2.6-gc79c8bd-dev.fmp","changelog":"","date":"2016-11-08T17:25:35.208Z"}
  ],
  "type" : "dev"
 }
