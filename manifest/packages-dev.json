@@ -7,10 +7,10 @@
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
       "version": "v1.5.1-gd90c88d-dev",
-      "md5": "d41d8cd98f00b204e9800998ecf8427e",
+      "md5": "37547c54b114050598651ffb524dbb01",
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_edison_v1.5.1-gd90c88d-dev.fmp",
       "changelog": "",
-      "date": "2017-06-09T21:06:16.930Z"
+      "date": "2017-06-09T21:11:56.339Z"
     },
     {
       "os": "linux",
