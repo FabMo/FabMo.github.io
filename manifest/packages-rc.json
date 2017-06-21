@@ -1,4 +1,17 @@
 {
-  "packages": [],
+  "packages": [
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "edison",
+      "system": "handibot",
+      "updaterNeeded": "v2.0.0",
+      "version": "v2.3.0-g070fc49-rc",
+      "md5": "b32dd28b1c09fdc029ff14afdda95c9d",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/release_candidate/fabmo-updater_linux_edison_v2.3.0-g070fc49-rc.fmp",
+      "changelog": "",
+      "date": "2017-06-21T20:56:27.699Z"
+    }
+  ],
   "type": "rc"
 }
