@@ -194,18 +194,6 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.5.0/fabmo-engine_linux_edison_v1.5.0.fmp",
       "changelog": "* Add the ability to submit/run a job without jumping to the job manager\r\n* Various fixes related to job queue management\r\n* Hotfix for configuration unit display\r\n",
       "date": "2017-02-16T16:15:26.821Z"
-    },
-    {
-      "os": "linux",
-      "product": "FabMo-Engine",
-      "platform": "edison",
-      "system": "handibot",
-      "updaterNeeded": "v2.0.0",
-      "version": "v1.5.1",
-      "md5": "86e8bd304b29a9e99ea1c6b3f6b28daa",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.5.1/fabmo-engine_linux_edison_v1.5.1.fmp",
-      "changelog": "",
-      "date": "2017-06-26T18:17:00.108Z"
     }
   ]
 }
