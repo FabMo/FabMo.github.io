@@ -215,7 +215,7 @@
       "updaterNeeded": "v2.0.0",
       "version": "v1.6.0",
       "md5": "d41d8cd98f00b204e9800998ecf8427e",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/untagged-278aa48bec7dfd9f1242/fabmo-engine_linux_edison_v1.6.0.fmp",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.6.0/fabmo-engine_linux_edison_v1.6.0.fmp",
       "changelog": " * Added New Home App\r\n * Added Z pull-up option on pause\r\n * Improved manual drive performance\r\n * Improved job submission/resubmission time\r\n * Added various job manager aesthetic and performance improvements\r\n * Added improved firmware with smoother motion\r\n * Improved previewer performance and appearance\r\n * Fixed spurious logouts\r\n * Improved configuration app documentation\r\n * Improved GPIO support\r\n * Corrected LED behavior for handibot\r\n * Added machine profile defaults\r\n * Added PX,PY,PZ,P2,P3 commands\r\n * Fixed pause in certain types of moves (arcs, short moves)\r\n * Improved OpenSBP performance\r\n * Improved FabMo Minder performance\r\n * Added SU comand\r\n * Added jerk values specifically for manual control\r\n * Fixed various bugs in macro subsystem",
       "date": "2017-10-31T15:48:17.365Z"
     },
