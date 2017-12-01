@@ -18,10 +18,10 @@
       "platform": "edison",
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
-      "version": "v1.6.0-g060bbf5-rc",
-      "md5": "09ec12e9735cc0569417d895c0d20f36",
+      "version": "v1.6.1-g060bbf5-rc",
+      "md5": "52e76b5977e5d1e4730077c330de2f5b",
       "changelog": "",
-      "date": "2017-11-29T17:24:01.225Z"
+      "date": "2017-12-01T18:01:09.891Z"
     }
   ],
   "type": "rc"
