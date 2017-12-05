@@ -242,18 +242,6 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v2.3.1/fabmo-updater_linux_edison_v2.3.1.fmp",
       "changelog": "",
       "date": "2017-11-03T17:25:02.505Z"
-    },
-    {
-      "os": "linux",
-      "product": "FabMo-Engine",
-      "platform": "edison",
-      "system": "handibot",
-      "updaterNeeded": "v2.0.0",
-      "version": "v1.6.1",
-      "md5": "d41d8cd98f00b204e9800998ecf8427e",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.6.1/fabmo-engine_linux_edison_v1.6.1.fmp",
-      "changelog": "* Fix responsiveness of \"play\" button in job manager\r\n* Add handibot long sheet profile\r\n* Fix macro 90/91 behavior in profiles\r\n* Various minor bugfixes",
-      "date": "2017-12-05T05:07:33.883Z"
     }
   ]
 }
