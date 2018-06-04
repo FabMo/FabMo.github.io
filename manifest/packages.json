@@ -290,6 +290,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.6.4/fabmo-engine_linux_edison_v1.6.4.fmp",
       "changelog": "",
       "date": "2018-04-23T16:39:35.095Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "edison",
+      "system": "handibot",
+      "updaterNeeded": "v2.0.0",
+      "version": "v2.3.2",
+      "md5": "123fc20d84f8bc73ddc47abfc2a8189a",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v2.3.2/fabmo-updater_linux_edison_v2.3.2.fmp",
+      "changelog": "",
+      "date": "2018-06-04T18:34:49.038Z"
     }
   ]
 }
