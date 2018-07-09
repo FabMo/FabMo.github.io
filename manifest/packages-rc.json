@@ -19,10 +19,10 @@
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
       "version": "v1.7.0-ga604b7d-rc",
-      "md5": "d46864ea1180c1d8b1f5d2f1b8da79a5",
+      "md5": "11214dabb54cb0f0d7313cf4a430afd7",
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_edison_v1.7.0-ga604b7d-rc.fmp",
       "changelog": "",
-      "date": "2018-07-09T13:49:42.448Z"
+      "date": "2018-07-09T15:42:15.302Z"
     }
   ],
   "type": "rc"
