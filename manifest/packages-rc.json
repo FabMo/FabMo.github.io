@@ -18,11 +18,11 @@
       "platform": "edison",
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
-      "version": "v1.7.0-gca7c701-rc",
-      "md5": "3dae5bc3d897537e5f153a83ca2c25df",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_edison_v1.7.0-gca7c701-rc.fmp",
+      "version": "v1.7.0-g658c5a2-rc",
+      "md5": "332a2d8eacc6b408209c1b0a2e36b2f7",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_edison_v1.7.0-g658c5a2-rc.fmp",
       "changelog": "",
-      "date": "2018-08-31T20:17:05.315Z"
+      "date": "2018-09-03T14:05:50.556Z"
     }
   ],
   "type": "rc"
