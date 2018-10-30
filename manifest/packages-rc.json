@@ -6,11 +6,11 @@
       "platform": "edison",
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
-      "version": "v2.3.3-g20ec0a1-rc",
-      "md5": "c51dd2d8634ac16d0173f2798bc192b0",
-      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/release_candidate/fabmo-updater_linux_edison_v2.3.3-g20ec0a1-rc.fmp",
+      "version": "v2.3.4-g9b3721f-rc",
+      "md5": "7e337b4421661de56e4bfaa5d3c00be7",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/release_candidate/fabmo-updater_linux_edison_v2.3.4-g9b3721f-rc.fmp",
       "changelog": "",
-      "date": "2018-09-06T17:05:23.261Z"
+      "date": "2018-10-30T18:15:05.644Z"
     },
     {
       "os": "linux",
