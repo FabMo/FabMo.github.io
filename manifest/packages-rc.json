@@ -19,10 +19,10 @@
       "system": "handibot",
       "updaterNeeded": "v2.0.0",
       "version": "v1.7.2-g20862e9-rc",
-      "md5": "5f3f78e6aefb82b076129980be20bcc6",
+      "md5": "6e5b58c876de53bd77248a7107a72803",
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_edison_v1.7.2-g20862e9-rc.fmp",
       "changelog": "",
-      "date": "2018-11-26T21:08:33.916Z"
+      "date": "2018-11-26T21:31:14.586Z"
     }
   ],
   "type": "rc"
