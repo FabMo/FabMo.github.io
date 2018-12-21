@@ -338,6 +338,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.7.1/fabmo-engine_linux_edison_v1.7.1.fmp",
       "changelog": "* Fix job manager queue submit order\r\n* Add g-code commands to OpenSBP",
       "date": "2018-10-08T12:50:16.152Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "edison",
+      "system": "handibot",
+      "updaterNeeded": "v2.0.0",
+      "version": "v1.7.2",
+      "md5": "757b22b11cab0c2ed51a65b102879235",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v1.7.2/fabmo-engine_linux_edison_v1.7.2.fmp",
+      "changelog": "",
+      "date": "2018-12-21T21:50:53.997Z"
     }
   ]
 }
