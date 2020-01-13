@@ -119,7 +119,7 @@
               </p>
               <ul>
                 <li>
-                  The SBC runs a minimal linux install that supports the FabMo Engine and related management modules. For our current ShopBot version we are using the Intel Edison, but support is planned for Raspberry Pi and BeagleBone Black SBC's.
+                  The SBC runs a minimal linux install that supports the FabMo Engine and related management modules. For our current ShopBot version we are using a Raspberry Pi 4B, but support is planned for other computer builds of FabMo.
                 </li>
                 <li>
                   The real-time microcontroller is loaded with the G2 motion system. Our reference implementation is on the Atmel SAM3X8E. This microcontroller is found on the Arduino Due, which makes the Due a useful development board. This real-time component of the system is also available in the form of ShopBot's latest (V30x) Control Cards.
@@ -135,10 +135,10 @@
                 FabMo is a collection of software components and well-documented APIs. The FabMo Engine, running in linux on the tool's SBC, connects a digital fab tool to the world; handles local user needs; manages the flow of jobs to the real-time core.
               </p>
               <p>
-                Programmed primarily in javascript with node.js, the FabMo Engine serves up a contemporary, mobile-friendly web interface. Several base modules provide run-times for different digital-fab-tool path languages and serve as models for creating others.
+                Programmed primarily in javascript and node.js, the FabMo Engine serves up a contemporary, mobile-friendly web interface. Several base modules provide run-times for different digital-fab-tool path languages and serve as models for creating others.
               </p>
               <p>
-                More importantly, FabMo provides a framework for developing and hosting "apps" that will contribute a wide range of usability to digital fab tools. App Developer Resources include definitive and documented "example app" that serves as a template for app development as well as several more specific examples. Apps are written in the languages of the web (HTML, Javascript, Coffeescript, CSS, etc) so that as tools for the web grow, so do our tools for doing digital fabrication!
+                More importantly, FabMo provides a framework for developing and hosting "apps" that will contribute a wide range of usability to digital fab tools. App Developer Resources include definitive and documented "example apps" that serves as a template for app development as well as several more specific examples. Apps are written in the languages of the web (HTML, Javascript, Coffeescript, CSS, etc) so that as tools for the web grow, so do our tools for doing digital fabrication!
               </p>
               <p>
                 The FabMo "G2 Core" resides on the ARM microcontroller. It represents work of the Synthetos team. G2 is a sophisticated motion system: high speed (high step rates), advanced "S" shaped ramping for smooth and efficient accelerations and decelerations, all running in real time and not requiring fussing with PC timing functions or USB converters.
@@ -148,10 +148,6 @@
               <p>
                 <strong>FabMo "Dashboard" Interface.</strong> Showing system apps (left panel), apps area, and Digital Read Out (DRO; optionally displayed on right).
               </p> 
-                <img id="apps_img" src="images/apps.png">
-              <p>
-                <strong>Example "gallery" </strong> of Handibot "projects apps" ready for the FabMo "Dashboard". Ready-to-cut projects  available from web galleries.
-              </p>   
             </div>
 
             <div class="resources">
@@ -167,7 +163,7 @@
                             <li> <a href="http://fabmo.github.io/fabmo-the-news-app/">Handibot News</a> - Display a simple page from an external site.</li>
                         </ul>
                     <h4>FabMo Virtual Tool</h4>
-                        <p>Open up our <a href="http://demo.gofabmo.org">virtual FabMo Dashboard</a> to see the look and feel of the interface and apps in action. This is just like running a real tool ...</p>
+                        <p>Open up our <a href="https://efferent-frigatebird-4071.dataplicity.io/">virtual FabMo Dashboard</a> to see the look and feel of the interface and apps in action. This is just like running a real tool ...</p>
                     <h4>API Documentation for the Dashboard (fabmo.js)</h4>
                         <p>Check out <a href="http://fabmo.github.io/fabmo.js/">the API documentation</a> for the details on making use of FabMo functionality in your own apps.</p>
                     <h4>FabMo on GitHub</h4>
