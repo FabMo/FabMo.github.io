@@ -15,14 +15,14 @@
     {
       "os": "linux",
       "product": "FabMo-Engine",
-      "platform": "edison",
-      "system": "handibot",
+      "platform": "raspberry-pi",
+      "system": "dt",
       "updaterNeeded": "v2.0.0",
-      "version": "v1.7.2-gcc6e495-rc",
-      "md5": "1ceddb1564b549fdb8960723b0c93336",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_edison_v1.7.2-gcc6e495-rc.fmp",
+      "version": "v3.0.86-ge3fae241-rc",
+      "md5": "2561c2ea78071dba81616d260b740140",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_raspberry-pi_v3.0.86-ge3fae241-rc.fmp",
       "changelog": "",
-      "date": "2018-12-18T19:37:27.875Z"
+      "date": "2021-12-23T21:12:19.112Z"
     }
   ],
   "type": "rc"
