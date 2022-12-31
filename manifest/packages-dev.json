@@ -1,1 +1,29 @@
-{"packages":[{"os":"linux","product":"FabMo-Engine","platform":"edison","system":"handibot","updaterNeeded":"v2.0.0","version":"v1.7.1-gcc6e495","md5":"d41d8cd98f00b204e9800998ecf8427e","url":"https://github.com/FabMo/FabMo-Engine/releases/download/v1.7.1-gcc6e495/fabmo-engine_linux_edison_v1.7.1-gcc6e495.fmp","changelog":"","date":"2018-12-18T18:31:50.922Z"},{"os":"linux","product":"FabMo-Updater","platform":"edison","system":"handibot","updaterNeeded":"v2.0.0","version":"v2.3.3-g9b3721f-dev","md5":"5a553cebdd9941f3378fa50119f1b68e","url":"https://github.com/FabMo/FabMo-Updater/releases/download/dev/fabmo-updater_linux_edison_v2.3.3-g9b3721f-dev.fmp","changelog":"","date":"2018-11-08T02:59:55.922Z"}],"type":"dev"}
+{
+  "packages": [
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v3.1.41-g72317f6f-dev",
+      "md5": "b58654cb56fe186eed13cc554e260e28",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_raspberry-pi_v3.1.41-g72317f6f-dev.fmp",
+      "changelog": "",
+      "date": "2022-12-28T06:04:38.310Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "edison",
+      "system": "handibot",
+      "updaterNeeded": "v2.0.0",
+      "version": "v2.3.3-g9b3721f-dev",
+      "md5": "5a553cebdd9941f3378fa50119f1b68e",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/dev/fabmo-updater_linux_edison_v2.3.3-g9b3721f-dev.fmp",
+      "changelog": "",
+      "date": "2018-11-08T02:59:55.922Z"
+    }
+  ],
+  "type": "dev"
+}
