@@ -18,11 +18,11 @@
       "platform": "raspberry-pi",
       "system": "dt",
       "updaterNeeded": "v2.0.0",
-      "version": "v3.0.86-ge3fae241-rc",
-      "md5": "2561c2ea78071dba81616d260b740140",
-      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_raspberry-pi_v3.0.86-ge3fae241-rc.fmp",
+      "version": "v3.2.1-g72317f6f-rc",
+      "md5": "3120e70832901f25554b7b4967493e60",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/release_candidate/fabmo-engine_linux_raspberry-pi_v3.2.1-g72317f6f-rc.fmp",
       "changelog": "",
-      "date": "2021-12-23T21:12:19.112Z"
+      "date": "2022-12-28T07:21:43.498Z"
     }
   ],
   "type": "rc"
