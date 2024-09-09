@@ -361,6 +361,18 @@
       "md5": "df8ca482e51450be27939ca0cea00871",
       "changelog": "",
       "date": "2023-01-02T16:37:32.949Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.17",
+      "md5": "1358e7b32f7b753eadd5ccf8b2034d12",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.17/fabmo-engine_linux_raspberry-pi_v4.0.17.fmp",
+      "changelog": "Test Release message\n\nThis is a multi-line message.\nIt includes several lines of text.\n\n* Item 1\n* Item 2\n* Item 3",
+      "date": "2024-09-09T18:43:05.353Z"
     }
   ]
 }
