@@ -375,15 +375,27 @@
       "date": "2024-09-09T18:43:05.353Z"
     },
     {
-        "os": "linux",
-        "product": "FabMo-Engine",
-        "platform": "raspberry-pi",
-        "system": "dt",
-        "updaterNeeded": "v2.0.0",
-        "version": "v4.0.21",
-        "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.21/fabmo-engine_linux_raspberry-pi_v4.0.21.fmp",
-        "changelog": "Test Release new OpenSBP functionality (Arrays, PAUSE/DIALOG) ...",
-        "date": "2024-09-09T18:43:05.353Z"
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.21",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.21/fabmo-engine_linux_raspberry-pi_v4.0.21.fmp",
+      "changelog": "Test Release new OpenSBP functionality (Arrays, PAUSE/DIALOG) ...",
+      "date": "2024-09-09T18:43:05.353Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.23",
+      "md5": "481f56793c548b5ec17ee3de1beecc03",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.23/fabmo-engine_linux_raspberry-pi_v4.0.23.fmp",
+      "changelog": "",
+      "date": "2024-11-05T16:10:53.431Z"
     }
   ]
 }
