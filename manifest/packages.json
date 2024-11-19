@@ -396,6 +396,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.23/fabmo-engine_linux_raspberry-pi_v4.0.23.fmp",
       "changelog": "",
       "date": "2024-11-05T16:10:53.431Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.25",
+      "md5": "bb87cf553a59ed4e3fa5a57342ebe563",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.0.25/fabmo-engine_linux_raspberry-pi_v4.0.25.fmp",
+      "changelog": "",
+      "date": "2024-11-19T21:22:08.681Z"
     }
   ]
 }
