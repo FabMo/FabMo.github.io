@@ -11,6 +11,18 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/dev/fabmo-updater_linux_edison_v2.3.3-g9b3721f-dev.fmp",
       "changelog": "",
       "date": "2018-11-08T02:59:55.922Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.1.19-gadbe7da7-dev",
+      "md5": "ac23e337321f79fa210f0de325dbac71",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/dev/fabmo-engine_linux_raspberry-pi_v4.1.19-gadbe7da7-dev.fmp",
+      "changelog": "",
+      "date": "2026-03-01T20:24:05.480Z"
     }
   ],
   "type": "dev"
