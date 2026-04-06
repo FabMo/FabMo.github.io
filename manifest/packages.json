@@ -306,14 +306,14 @@
     {
       "os": "linux",
       "product": "FabMo-Updater",
-      "platform": "edison",
-      "system": "handibot",
+      "platform": "raspberry-pi",
+      "system": "dt",
       "updaterNeeded": "v2.0.0",
       "version": "v2.3.3",
-      "md5": "50166bbf7791366fc4f87b5bbf2db870",
-      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v2.3.3/fabmo-updater_linux_edison_v2.3.3.fmp",
+      "md5": "3d9f08c7844e3ffaa9df35dc41b081d8",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v2.3.3/fabmo-updater_linux_raspberry-pi_v2.3.3.fmp",
       "changelog": "",
-      "date": "2018-09-12T18:49:24.289Z"
+      "date": "2026-04-06T16:11:28.321Z"
     },
     {
       "os": "linux",
