@@ -1188,6 +1188,18 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.23/fabmo-updater_linux_raspberry-pi_v4.0.23.fmp",
       "changelog": "",
       "date": "2026-05-28T16:14:42.126Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.25",
+      "md5": "c07fdd40d2b68a0e272a1c95cdba1e56",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.25/fabmo-updater_linux_raspberry-pi_v4.0.25.fmp",
+      "changelog": "",
+      "date": "2026-05-29T20:18:14.680Z"
     }
   ]
 }
