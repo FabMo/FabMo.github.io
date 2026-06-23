@@ -1,0 +1,12 @@
+{
+  "packages-dev": [
+    {
+      "product": "FabMo-Engine",
+      "os": "linux",
+      "platform": "raspberry-pi",
+      "version": "v0.0.1",
+      "changelog": " * Template",
+      "url": "https://github.com/FabMo/FabMo-Engine/dev/download/v0.0.1/FabMo-Engine_linux_edison_v0-0-1.fmp"
+    }
+  ]
+}
