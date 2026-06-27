@@ -267,9 +267,9 @@ Full-Width Styles
 #fabmo_logo {
   display: block;
   position: absolute;
-  top: 35%;
-  left: 30px;
-  width: 33%;
+  top: 20%;
+  left: 5px;
+  width: 70%;
   z-index: 10;
   padding: 10px 50px 10px 10px;
 }
@@ -376,7 +376,7 @@ Medium Device Styles
 @media screen and (max-width: 900px) {
    #fabmo_logo {
     top: 20%;
-    width: 40%;
+    width: 70%;
   }
   
   #diagram_img, #dash_img, #apps_img  {
