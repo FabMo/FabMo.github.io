@@ -375,7 +375,7 @@ Medium Device Styles
 *******************************************************************************/
 @media screen and (max-width: 900px) {
    #fabmo_logo {
-    top: 20%;
+    top: 10%;
     width: 70%;
   }
   
@@ -452,8 +452,8 @@ Small Device Styles
   }
 
   #fabmo_logo {
-    top: 12%;
-    width: 60%;
+    top: 3%;
+    width: 80%;
   }
 
   .cartoon_container {
