@@ -762,6 +762,7 @@ Custom FabMo Styles
 }
 
 .fabmo_story img {
+  margin-top: 8%;
   width: 90%;
   position: relative;
   top: -1em;
