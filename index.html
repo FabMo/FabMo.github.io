@@ -39,6 +39,73 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.2.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script>
 
+<!-- ============================================================= -->
+<!-- PART A — HISTORY LEAD-IN                                       -->
+<!-- Insert this <p> inside the existing  <div class="introduction_story">,  -->
+<!-- immediately BEFORE the line:                                   -->
+<!--   <strong>FabMo</strong> offers CNC users <strong>five fundamental capabilities</strong>: -->
+<!-- (The colon then leads straight into the capability blocks below.) -->
+<!-- ============================================================= -->
+
+          <p>
+            We set out some years ago to build a new kind of software for running CNC and digital fabrication tools -- the computer-controlled machines that shape parts either by subtraction, cutting and machining components from blocks and sheets of material, or by addition, building items up from raw material. Years earlier, ShopBot had helped show that industrial automation could be made affordable by harnessing the then-new personal computer. A new generation of microcontrollers now makes it possible to put even more capability, at lower cost, into the control of robotic equipment. We needed that capability for our own machines, so we developed it -- for ourselves, and for anyone else who wants to put it to use.
+          </p>
+
+
+<!-- ============================================================= -->
+<!-- PART B — REPLACE the existing  <div class="features inner"> ... </div>  block -->
+<!-- (Note: class on capability #4 changed "interactive" -> "programmable" -->
+<!--  to match its new content; no CSS depends on these class names.)  -->
+<!-- ============================================================= -->
+
+        <div class="features inner">
+          <div class="fast">
+            <h3>1 - Performance First: Fast, Precise, Smooth Cutting</h3>
+            <h4><strong>A powerful, low-level motion controller delivers fast, S-shaped acceleration profiles that minimize vibration and produce snappy, efficient action</strong></h4>
+            <p>
+              The highest priority of any CNC tool is to machine well -- and everything else FabMo offers is built on top of that. FabMo's enhanced hardware and low-level motion core provide sophisticated, near-real-time motion-planning. Fifth-order, "S"-shaped acceleration profiles minimize "jerk" and produce confident, brisk moves, while high-resolution timing yields smooth surfaces and graceful fabrication action. Underlying this is the inherent accuracy of digital stepper motion, which never accumulates incremental error -- a tool is just as accurate at 80 inches as at 8. ShopBot has carried this motion system forward through years of independent refinement, to the point of step-error-free operation across millions of moves in extended production runs. Quality of cutting and efficiency of production both start here, with smooth motion and snappy action.
+            </p>
+            <!-- VIDEO PLACEHOLDER: short clip of snappy motion in and out of corners -->
+          </div>
+          <div class="access">
+            <h3>2 - Connect Widely, or Not at All: Your Choice of Access</h3>
+            <h4><strong>Reach your digital fabrication tool from any device, and generate toolpaths from a wide range of CAD/CAM programs or from FabMo apps</strong></h4>
+            <p>
+              FabMo opens new paths of access to your tool. Because it's built on standard networking, almost any smart device with a browser -- a phone, tablet, laptop, or desktop -- can run and monitor your FabMo equipment. Choose the access route that suits your shop: hard-wired for industrial robustness, or wireless for convenience. Where cybersecurity matters -- schools, government and military sites, secure corporate floors -- FabMo can also run completely disconnected from any network. You can attach a screen and keyboard directly to the Raspberry Pi server and run the tool entirely off-line, or, if you need on-board CAD/CAM, connect a single PC to the tool by ethernet cable with no outside network at all. A long-standing frustration of CNC has been tool interfaces with restrictive connectivity and little interoperability; FabMo removes that limitation while leaving the security decision entirely in your hands.
+            </p>
+          </div>
+          <div class="interface">
+            <h3>3 - Making CNC Easier: An Intuitive, Responsive Interface</h3>
+            <h4><strong>Straightforward setup, running, and file-management -- with built-in help and a familiar ShopBot feel</strong></h4>
+            <p>
+              CNC tools are used across a wide range of environments by operators with very different skills and interests. The FabMo interface makes setting up your tool and running a job easy, with straightforward starting, monitoring, and file-management, plus built-in help and coaching for newer users. Operators already familiar with ShopBot will find a "classic" interface they recognize, alongside additional helpful tools and production resources built right into the platform. Develop job files on your tool-connected device, or post them from portable memory, your network, or -- if you choose to connect -- your cloud storage; you can always keep all work local for security. FabMo supports a wide range of workflows, from traditional CAD > CAM to a variety of "app" types (see below), and reads several motion languages including g-code and OpenSBP. While you work, FabMo's dynamic planning makes near-real-time interactive control possible: positioning the tool from the keyboard, spinning up precise axis motion with a jog wheel, driving 2D or 3D positioning with a mouse, or even guiding simple machining by hand.
+            </p>
+          </div>
+          <div class="programmable">
+            <h3>4 - More Than a File-Runner: Adaptable, Programmable, Extensible</h3>
+            <h4><strong>FabMo's real forte -- customize files, build macros, and create your own apps</strong></h4>
+            <p>
+              This is where FabMo most extends what a CNC tool is and can do. It's programmable in three escalating ways. First, ShopBot's OpenSBP toolpath language is far more programmable than g-code: a conversational, BASIC-like language with variables, logic, and looping, so a great deal of customization can happen right inside the cutting files -- from a one-button move to a standard position, to production routines that move parts and people through a job. Second, a Macro library provides simple, quick functions for everyday production; many "canned cycles" ship ready to use, and users can add unlimited custom Macros of their own. Third, and most powerful, FabMo provides an API for "mini-apps" -- single-purpose programs written in the familiar languages of the web that run right on the platform. Apps can handle routine utility jobs or serve up complex, customer-customizable fabrication projects. To get you started there's an existing app library, worked examples showing how apps are built, and a prompt system for generating apps with AI. Together, these turn a fabrication tool into an open environment for new kinds of human-machine creativity and productive work.
+            </p>
+          </div>
+          <div class="sensing">
+            <h3>5 - Industrial Performance Sensing</h3>
+            <h4><strong>Open "smarts" in sensing and reporting that can optimize cutting and flag maintenance -- an emerging capability</strong></h4>
+            <p>
+              FabMo was designed with the Industrial Internet of Things (IIoT) and Industry 4.0 in mind. Smart sensing and reporting can help optimize production tools for both productivity and quality. A wide range of inputs -- digital, analog, and video -- can flow into FabMo over multiple channels to track measures such as spindle performance and current draw, cutting vibration, positioning, and running times. This capability is still developing, but it's actively in progress, and it points toward tools that increasingly help operators tune performance and anticipate maintenance.
+            </p>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
         <div class="introduction_story">
           <p>
             <strong>FabMo</strong> is a digital <u>fab</u>rication and <u>mo</u>tion platform of software and hardware. At its core is a powerful motion system that prioritizes smooth, snappy machining. Around that core, FabMo provides a straightforward, intuitive control interface and an open app-and-API environment that supports extensive customization and production integration. FabMo was developed by ShopBot Tools for our own CNC equipment; today it is ready to run ShopBots and offers a familiar, compelling interface to anyone already experienced with them. But FabMo was built with adaptability in mind: it is open source and designed to be configured for a wide range of digital smart tools, today and tomorrow.
@@ -47,65 +114,54 @@
             <strong>Go FabMo:</strong> to create, produce, and manufacture precisely and efficiently, in adaptable ways that strengthen your production process.
           </p>
           <p>
+            We set out some years ago to build a new kind of software for running CNC and digital fabrication tools -- the computer-controlled machines that shape parts either by subtraction, cutting and machining components from blocks and sheets of material, or by addition, building items up from raw material. Years earlier, ShopBot had helped show that industrial automation could be made affordable by harnessing the then-new personal computer. A new generation of microcontrollers now makes it possible to put even more capability, at lower cost, into the control of robotic equipment. We needed that capability for our own machines, so we developed it -- for ourselves, and for anyone else who wants to put it to use.
+          </p>
+          <p>
             <strong>FabMo</strong> offers CNC users <strong>five fundamental capabilities</strong>:
           </p>
         </div>
 
         <div class="features inner">
           <div class="fast">
-            <p></p>
-            <h3>1 - Fast, Smooth Cutting</h3>
-            <h4><strong>A powerful, low-level, motion-controller provides fast, vibration-free motion with S-shaped acceleration/deceleration profiles that minimize jerk and provide smooth snappy action </strong></h4>
+            <h3>1 - Performance First: Fast, Precise, Smooth Cutting</h3>
+            <h4><strong>A powerful, low-level motion controller delivers fast, S-shaped acceleration profiles that minimize vibration and produce snappy, efficient action</strong></h4>
             <p>
-              Sophisticated, 5th-order, state-of-the-art motion-planning is at FabMo's G2 core. "S"-shaped profiles improve the efficiency of machining and produce confident, brisk moves. High-resolution timing produces smooth surfaces. The FabMo interface makes running a cutting job easy with straight-forward starting, monitoring, and file-management. 
+              The highest priority of any CNC tool is to machine well -- and everything else FabMo offers is built on top of that. FabMo's enhanced hardware and low-level motion core provide sophisticated, near-real-time motion-planning. Fifth-order, "S"-shaped acceleration profiles minimize "jerk" and produce confident, brisk moves, while high-resolution timing yields smooth surfaces and graceful fabrication action. Underlying this is the inherent accuracy of digital stepper motion, which never accumulates incremental error -- a tool is just as accurate at 80 inches as at 8. ShopBot has carried this motion system forward through years of independent refinement, to the point of step-error-free operation across millions of moves in extended production runs. Quality of cutting and efficiency of production both start here, with smooth motion and snappy action.
             </p>
+            <!-- VIDEO PLACEHOLDER: short clip of snappy motion in and out of corners -->
           </div>
           <div class="access">
-            <h3>2 - Freedom of Access</h3>
-            <h4><strong>Access your digital fabrication tool from any device and generate toolpath files from a wide range of programs (CAD/CAM) or from digital-fabrication apps</strong></h4>
+            <h3>2 - Connect Widely, or Not at All: Your Choice of Access</h3>
+            <h4><strong>Reach your digital fabrication tool from any device, and generate toolpaths from a wide range of CAD/CAM programs or from FabMo apps</strong></h4>
             <p>
-              FabMo will link a wide range of devices to your digital fab tool. Access a tool from a phone or any computer or tablet. Choose your access route. Be hard-wired for industrial robustness or go wireless. Decide whether you want to be networked or not. Control the tool with a device, or just monitor the action. And, post job files from your cloud storage, or allow only locally generated files for security. FabMo further supports a wide range of digital-fab workflows from traditional CAD > CAM approaches to a variety of "app" types. FabMo supports several motion languages including g-code and OpenSBP. Other languages may be added.
+              FabMo opens new paths of access to your tool. Because it's built on standard networking, almost any smart device with a browser -- a phone, tablet, laptop, or desktop -- can run and monitor your FabMo equipment. Choose the access route that suits your shop: hard-wired for industrial robustness, or wireless for convenience. Where cybersecurity matters -- schools, government and military sites, secure corporate floors -- FabMo can also run completely disconnected from any network. You can attach a screen and keyboard directly to the Raspberry Pi server and run the tool entirely off-line, or, if you need on-board CAD/CAM, connect a single PC to the tool by ethernet cable with no outside network at all. A long-standing frustration of CNC has been tool interfaces with restrictive connectivity and little interoperability; FabMo removes that limitation while leaving the security decision entirely in your hands.
             </p>
           </div>
           <div class="interface">
-            <h3>3 - Programmable Interface</h3>
-            <h4><strong>Modify FabMo to fit your needs or the needs of your own specialized fabrication tools</strong></h4>
+            <h3>3 - Making CNC Easier: An Intuitive, Responsive Interface</h3>
+            <h4><strong>Straightforward setup, running, and file-management -- with built-in help and a familiar ShopBot feel</strong></h4>
             <p>
-              We hope the FabMo platform will serve the needs of the fabrication, motion, and robotics community and provide an open platform for shared innovation. The platform is programmable in multiple ways. There are simple macro-based functions for quick production use. One level up, we have created an environment for apps that can serve many users functions. Apps are programmable in familiar languages of the web. Apps can provide utility functions and carry out common jobs; they can also serve-up complex digital-fab projects whose parameters can be customized by users.
+              CNC tools are used across a wide range of environments by operators with very different skills and interests. The FabMo interface makes setting up your tool and running a job easy, with straightforward starting, monitoring, and file-management, plus built-in help and coaching for newer users. Operators already familiar with ShopBot will find a "classic" interface they recognize, alongside additional helpful tools and production resources built right into the platform. Develop job files on your tool-connected device, or post them from portable memory, your network, or -- if you choose to connect -- your cloud storage; you can always keep all work local for security. FabMo supports a wide range of workflows, from traditional CAD > CAM to a variety of "app" types (see below), and reads several motion languages including g-code and OpenSBP. While you work, FabMo's dynamic planning makes near-real-time interactive control possible: positioning the tool from the keyboard, spinning up precise axis motion with a jog wheel, driving 2D or 3D positioning with a mouse, or even guiding simple machining by hand.
             </p>
           </div>
-          <div class="interactive">
-            <h3>4 - Interactive and Dynamic Control</h3>
-            <h4><strong>Hands-on, heads-up, real-time operation offers interactive control</strong></h4>
+          <div class="programmable">
+            <h3>4 - More Than a File-Runner: Adaptable, Programmable, Extensible</h3>
+            <h4><strong>FabMo's real forte -- customize files, build macros, and create your own apps</strong></h4>
             <p>
-               Near-real-time operation for interactive control is made possible by the dynamic planning on which the G2 system is based. App development with responsive motion and programmed filtering can creates opportunities to new types of human-machine interface enhancing creative and productive work.
+              This is where FabMo most extends what a CNC tool is and can do. It's programmable in three escalating ways. First, ShopBot's OpenSBP toolpath language is far more programmable than g-code: a conversational, BASIC-like language with variables, logic, and looping, so a great deal of customization can happen right inside the cutting files -- from a one-button move to a standard position, to production routines that move parts and people through a job. Second, a Macro library provides simple, quick functions for everyday production; many "canned cycles" ship ready to use, and users can add unlimited custom Macros of their own. Third, and most powerful, FabMo provides an API for "mini-apps" -- single-purpose programs written in the familiar languages of the web that run right on the platform. Apps can handle routine utility jobs or serve up complex, customer-customizable fabrication projects. To get you started there's an existing app library, worked examples showing how apps are built, and a prompt system for generating apps with AI. Together, these turn a fabrication tool into an open environment for new kinds of human-machine creativity and productive work.
             </p>
           </div>
           <div class="sensing">
             <h3>5 - Industrial Performance Sensing</h3>
-            <h4><strong>Open smarts in sensing and reporting that can optimize cutting and maintenance</strong></h4>
+            <h4><strong>Open "smarts" in sensing and reporting that can optimize cutting and flag maintenance -- an emerging capability</strong></h4>
             <p>
-              FabMo was designed for the Industrial Internet of Things (IIoT) and Industry 4.0. Smart sensing and reporting will help optimize performance for production tools improving productivity and quality. A wide range of inputs from tools inputs to FabMo can happen over multiple channels -- from direct low-level inputs to the G2 controller to networked and browser sensing.
+              FabMo was designed with the Industrial Internet of Things (IIoT) and Industry 4.0 in mind. Smart sensing and reporting can help optimize production tools for both productivity and quality. A wide range of inputs -- digital, analog, and video -- can flow into FabMo over multiple channels to track measures such as spindle performance and current draw, cutting vibration, positioning, and running times. This capability is still developing, but it's actively in progress, and it points toward tools that increasingly help operators tune performance and anticipate maintenance.
             </p>
           </div>
         </div>
 
         <div class="fabmo_story">
-          <h2>The <span>FabMo</span> Story</h2>
-          <h4>The history</h4>
-          <p>
-            Five 5 years ago, ShopBot began an ambitious project to develop a new software system to run CNC and digital fabrication tools -- computer controlled robotic tools that fashion items by subtraction cutting and machining components from blocks and sheets of material, or addition by infusing, hardening, and generally building-up items from raw material. Fifteen years previously, ShopBot had led in showing how industrial automation tools could be made affordable using the capabilities of the then new, personal computer. Today, powerful new capabilities are made available in the next generation of micro-controllers that allow putting even more capability at lower cost in the control of robotic equipment. We needed this capability for our own machines. We decided to develop it for ourselves and anyone else who wants to put the system to use. We call the system FabMo -- short for digital Fabrication and Motion software platform.
-          </p>
-          <h4>Our two challenges in digital fabrication today</h4>
-          <p>
-            The first challenge is the CAD to CAM workflow for generating tool-path files. The difficulty of doing CAD and CAM creates a tough hurdle, particulary for simple projects or routine work. The second challenge is that running the files that are generated from CAM output is made complicated by proprietary or idiosyncratic tool languages and by tool interfaces having restrictive connectivity and little interoperability.
-          </p>
-          <p>
-            With the FabMo digital fabrication and motion platform, we introduce an approach to digital fabrication that opens new paths of use and frees access to tools. We take advantage of progress in microprocessors and microcontrollers, which now offers low-cost options for managing and driving digital fabrication equipment and inter-connecting equipment, sensors, and other data sources. The FabMo "Engine" looks outward from a digital fab tool allowing access via wireless and wired routes, from almost any type of device, and utilizing multiple and expandable motion languages. It efficiently feeds the FabMo "Core" -- a low-level, real-time, high-performance motion-system producing graceful fabbing action.
-          </p>
-          <p>
-            FabMo links a fabrication tool to apps and projects. Such apps will make content created for digital fabrication more available and customizable to users' needs. FabMo supports links for managing cloud apps, projects, galleries, and accounts.
-          </p>
+          <h2>The FabMo Diagram</h2>
             <img id="diagram_img" src="images/fabmo_diagram_v05b.png">
           <p>
             <strong>Diagram of FabMo.</strong> Top line shows the general model of FabMo for digital Fabrication -- the connection from a device in the world, to a tool's motion system, and the electronic and mechanical hardware that support it. The lower portion of the diagram shows the current ShopBot/Handibot instantiation of FabMo by way of detailed example, as well as other options available to developers and OEMs.
