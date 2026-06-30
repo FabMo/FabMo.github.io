@@ -245,7 +245,7 @@ Full-Width Styles
 .inner {
   position: relative;
   max-width: 1000px;
-  padding: 20px 10px;
+  padding: 60px 10px;
   margin: 0 auto;
 }
 
@@ -659,16 +659,16 @@ Custom FabMo Styles
   padding-bottom: -2em;
 }
 
-.freedom h4 {
-}
+/*.freedom h4 {
+}*/
 
 .freedom h5 {
   width: 75%;
   line-height: 1.5em;
 }
 
-.freedom div {
-}
+/*.freedom div {
+}*/
 
 .freedom p {
   font-size: 1.1em;
