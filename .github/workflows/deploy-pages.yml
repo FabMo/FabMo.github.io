@@ -40,7 +40,7 @@ jobs:
           timeout: 1800000
 
       - name: Retry deploy to GitHub Pages
-        if: steps.deployment.outcome != 'success'
+        if: steps.deployment.outcome == 'failure'
         id: deployment_retry
         uses: actions/deploy-pages@v5
         with:
