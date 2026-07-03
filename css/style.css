@@ -62,3 +62,22 @@ ul {
 .download-button:visited {
 	color: white;
 }
+
+/* Section spacing for hardware, software, and resources */
+.hardware,
+.software,
+.resources {
+	display: block;
+	clear: both;
+	margin-bottom: 2em;
+}
+
+.hardware {
+	margin-top: 2em;
+}
+
+.workflow-comparison {
+	display: block;
+	clear: both;
+	margin: 2em 0;
+}
