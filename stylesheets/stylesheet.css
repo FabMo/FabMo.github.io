@@ -745,6 +745,10 @@ Custom FabMo Styles
   font-size: 1.1em;
 }
 
+.fabrication-environment {
+  padding-top: 2em;
+} 
+
 .divider {
   position:absolute;
   left:50%;
