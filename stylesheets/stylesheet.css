@@ -745,6 +745,12 @@ Custom FabMo Styles
   font-size: 1.1em;
 }
 
+.workflow-comparison img{
+  padding-top: 2em;
+  width: 70%;
+  padding-left: 6em;
+}
+
 .fabrication-environment {
   padding-top: 2em;
 } 
@@ -810,7 +816,7 @@ footer {
 }
 .logo_footer img {
   padding-top: 1em;
-  width: 85%;
+  max-width: 150%;
   margin-left:300%;
 }
 
