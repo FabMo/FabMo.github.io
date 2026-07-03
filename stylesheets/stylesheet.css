@@ -695,7 +695,7 @@ Custom FabMo Styles
   color: #2b2a6d;
 }
 
-.hardware, .software {
+.hardware {
   padding-top: 3em;
   padding-right: 3em;
   margin-bottom: 3em;
@@ -739,6 +739,8 @@ Custom FabMo Styles
 
 .software {
   position: relative;
+  padding-right: 3em;
+  margin-bottom: 3em;
   line-height: 1.5;
   font-size: 1.1em;
 }
