@@ -703,10 +703,6 @@ Custom FabMo Styles
   font-size: 1.1em;
 }
 
-.software {
-  padding-top: -3em;
-}
-
 
 .hardware img {
   width: 48%;
@@ -742,7 +738,7 @@ Custom FabMo Styles
 }
 
 .software {
-  position: absolute;
+  position: relative;
   line-height: 1.5;
   font-size: 1.1em;
 }
