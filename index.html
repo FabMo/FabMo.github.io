@@ -155,6 +155,92 @@
 
             </div><!-- /software -->
 
+            <!-- =====================================================================
+                FabMo SCREENSHOT GALLERY 
+                HOW IT WORKS
+                - First <figure class="featured"> shows alone, centered, a little larger.
+                - Every <figure> after it flows in PAIRS (two across).
+                - On a small screen everything collapses to a single column, all one size.
+                - Add images IN PAIRS by copying the two-figure block marked below.
+                - Keep to 7 images total (1 featured + 3 pairs).
+                - Edit each <figcaption> with your own one-sentence description.
+
+                The <style> block can stay here, or be moved into stylesheet.css.
+                ===================================================================== -->
+
+            <style>
+              .fabmo_gallery{
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                gap:26px;
+                align-items:start;
+                max-width:900px;         /* keeps the gallery from going full width */
+                margin:24px auto 8px;
+              }
+              .fabmo_gallery figure{ margin:0; }
+              .fabmo_gallery img{
+                width:100%;
+                height:auto;
+                display:block;
+                border:1px solid #d8d7e2;
+                border-radius:5px;
+                box-shadow:0 1px 4px rgba(45,42,109,0.12);
+              }
+              .fabmo_gallery figcaption{
+                margin-top:9px;
+                text-align:center;
+                font-size:0.95em;
+                line-height:1.35;
+                color:#565666;
+              }
+              /* featured (first) image: spans both columns, centered, larger but not full width */
+              .fabmo_gallery .featured{
+                grid-column:1 / -1;
+                justify-self:center;
+                max-width:66%;
+              }
+              /* small screens: single column, every image the same size */
+              @media (max-width:600px){
+                .fabmo_gallery{ grid-template-columns:1fr; gap:20px; }
+                .fabmo_gallery .featured{ grid-column:auto; justify-self:stretch; max-width:100%; }
+              }
+            </style>
+
+            <div class="gallery_section">
+              <h3>A Look at FabMo</h3>   <!-- reword as you like -->
+
+              <div class="fabmo_gallery">
+
+                <!-- ===== Featured image (shown alone, centered, a little larger) ===== -->
+                <figure class="featured">
+                  <img src="images/dash_img_01.png" alt="FabMo screenshot">
+                  <figcaption>Add a one-sentence description here.</figcaption>
+                </figure>
+
+                <!-- ===== Pair 1 ===== -->
+                <figure>
+                  <img src="images/dash_img_02.png" alt="FabMo screenshot">
+                  <figcaption>Add a one-sentence description here.</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/dash_img_03.png" alt="FabMo screenshot">
+                  <figcaption>Add a one-sentence description here.</figcaption>
+                </figure>
+
+                <!-- ===== To add another pair, copy this block and bump the numbers (max 7 images total) =====
+                <figure>
+                  <img src="images/dash_img_04.png" alt="FabMo screenshot">
+                  <figcaption>Add a one-sentence description here.</figcaption>
+                </figure>
+                <figure>
+                  <img src="images/dash_img_05.png" alt="FabMo screenshot">
+                  <figcaption>Add a one-sentence description here.</figcaption>
+                </figure>
+                ===================================================================================== -->
+
+              </div>
+            </div>
+
             <div class="resources">
                   <br>
                   <h3>FabMo Resources</h3>
