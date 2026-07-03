@@ -829,6 +829,13 @@ footer {
   text-align: right;
 }
 
+.gallery_section {
+  width: 100%;
+  padding-left: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
 .resources {
   width: 100%;
   position: relative;
