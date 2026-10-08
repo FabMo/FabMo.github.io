@@ -1692,6 +1692,18 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.55/fabmo-updater_linux_raspberry-pi_v4.0.55.fmp",
       "changelog": "Changes since v4.0.53:\n- Build: stage the pinned FabMo-Updater package inside engine releases",
       "date": "2026-10-08T19:49:46.735Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.41",
+      "md5": "0ec5b49012cdbeaac624b329268fd0f7",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.41/fabmo-engine_linux_raspberry-pi_v4.2.41.fmp",
+      "changelog": "Changes since v4.2.39:\n- Bump long-stale system app versions\n- Fix 'Cannot create a new cycle context' on repeated SBP runs\n- Clear gotoModeHold when the goto's cycle actually ends\n- Prefer the higher version on app id collisions\n- G2 disconnect diagnostics: flight recorder, system snapshots, one-click bundle\n- Fix post-update recovery: updates delete /opt/fabmo, which defeated the settings-preservation reconcile and could silently lose machine config\n- Background updater self-update from a package bundled with the engine\n- Preserve settings, macros, and apps across updates (additive-only policy)\n- Update flow: download cascade, progress screen, USB packages; config cleanup\n- Config app UI pass: one-button updates, sidebar badge, tab reorganization\n- Config app: update-available notice with in-place install\n- Engine: same-origin proxy to the updater for update operations\n- Remove the online-probe stall from Check for Updates / version-link clicks\n- Sb4: restamp Motion-Pad canvas labels at i18nReady; fix dead menu fallback\n- Tool Status: repaint shortcuts card and jobs list at i18nReady\n- Network Manager: gate first render; stop parsing the SSID from display text\n- Previewer: gate ops-list, soft-limit warning and init toasts on i18nReady\n- Configuration: gate snapshot/spindle/apps renders; fix default-name clobber\n- Job Manager: gate queue/history renders on i18nReady\n- Dashboard shell: gate init-time t() paints on i18nReady\n- Job Manager: stop raw i18n keys from sticking in the Transforms nav",
+      "date": "2026-10-08T20:06:29.284Z"
     }
   ]
 }
