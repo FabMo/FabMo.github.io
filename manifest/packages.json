@@ -1728,6 +1728,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.45/fabmo-engine_linux_raspberry-pi_v4.2.45.fmp",
       "changelog": "This update makes FabMo much better at recovering when it\nloses contact with the tool's motion controller, often\nwithout turning the tool off and on.\n\nNew:\n- FabMo now tries to recover a lost motion controller by itself,\n  resetting the USB connection if needed.\n- FabMo reconnects automatically the moment the controller comes\n  back, such as after reseating a cable.\n\nImproved:\n- If recovery fails, the dashboard now stays available and shows\n  Reconnect, instead of restarting the software.\n- Clearer on-screen messages explain when FabMo is reconnecting\n  or attempting USB recovery.\n\nFixed:\n- FabMo no longer gets stuck at startup when the motion\n  controller stops responding.\n- A garbled message from the motion controller no longer\n  crashes FabMo.",
       "date": "2026-10-11T22:50:42.300Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.47",
+      "md5": "5c71dc542c2696b33d5ecef11146a648",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.47/fabmo-engine_linux_raspberry-pi_v4.2.47.fmp",
+      "changelog": "Fixed-distance keypad and arrow-key moves are now reliable.\nTaps no longer queue up silently and then run all at once.\n\nNew:\n- The Configuration app shows an expandable \"What's new\" list beside the update button.\n\nImproved:\n- Releasing a key in fixed-distance mode now finishes the current step. Continuous jog still stops immediately.\n- Closing or refreshing the browser tab with an unsaved macro now asks before discarding changes.\n- The editor's save prompt now appears only when you press Escape or the exit button.\n- Switching apps from the left-side menu does not ask to save, so save your macro first.\n\nFixed:\n- The editor's save prompt no longer pops up when you reach for the Save menu.\n- Choosing \"Yes\" at the save prompt now saves the macro instead of opening the job submit dialog.",
+      "date": "2026-10-20T21:37:00.637Z"
     }
   ]
 }
