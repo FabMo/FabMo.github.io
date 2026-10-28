@@ -1752,6 +1752,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.49/fabmo-engine_linux_raspberry-pi_v4.2.49.fmp",
       "changelog": "The Sb4 app is now called \"Console\" and is built from cards you can rearrange. The large DRO also shows more at a glance.\n\nNew:\n- Sb4 app renamed \"Console\", with movable cards for jobs, USB drive, apps, tools and speeds.\n- Console cards can be shown, hidden, dragged or collapsed to a title bar; settings stay per browser.\n- \"My Workflow\" card has Home XY and Home Z buttons that show when the tool is homed.\n- Press K anywhere in Console to open the Keypad.\n- Large DRO header shows units, manual or ATC tool change, machine state and current tool.\n- Limit switches can now be turned on or off with the VN command.\n\nImproved:\n- Large DRO numbers are bigger; the in/mm mark next to each axis is removed.\n- PRS5 ATC tool change, tool measuring and calibration corrected after testing on a real machine.\n- Z-zero and XY homing search distances now adjust to your machine's size.\n\nFixed:\n- Keypad no longer gets stuck after a move hits a limit switch.\n- Corrected errors in the CR (Cut Rectangle) command.\n- MD and MO removed from the command list because they are not supported.",
       "date": "2026-10-28T12:56:09.767Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.51",
+      "md5": "d8ea4e2a923dbf7a1e360e175961c1d1",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.51/fabmo-engine_linux_raspberry-pi_v4.2.51.fmp",
+      "changelog": "Note for the release author: the range says 7 commits, but only 4 are listed. The note below covers only those 4, so check the missing 3 before publishing.\n\nThe Console app no longer hangs while loading when no camera is attached. Machines with the PRS Carolina tool changer are now supported.\n\nNew:\n- Support for the PRS Carolina automatic tool changer: tool change, measuring, plate offset, calibration, and status check.\n\nImproved:\n- The tool-change label in the header bar now reads [Manual] instead of [Type: Manual].\n\nFixed:\n- The Console app no longer spins forever at startup when the camera service runs without a camera.",
+      "date": "2026-10-28T17:57:55.796Z"
     }
   ]
 }
