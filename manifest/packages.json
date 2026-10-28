@@ -1740,6 +1740,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.47/fabmo-engine_linux_raspberry-pi_v4.2.47.fmp",
       "changelog": "Fixed-distance keypad and arrow-key moves are now reliable.\nTaps no longer queue up silently and then run all at once.\n\nNew:\n- The Configuration app shows an expandable \"What's new\" list beside the update button.\n\nImproved:\n- Releasing a key in fixed-distance mode now finishes the current step. Continuous jog still stops immediately.\n- Closing or refreshing the browser tab with an unsaved macro now asks before discarding changes.\n- The editor's save prompt now appears only when you press Escape or the exit button.\n- Switching apps from the left-side menu does not ask to save, so save your macro first.\n\nFixed:\n- The editor's save prompt no longer pops up when you reach for the Save menu.\n- Choosing \"Yes\" at the save prompt now saves the macro instead of opening the job submit dialog.",
       "date": "2026-10-20T21:37:00.637Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.49",
+      "md5": "73cf1d22f8deb20a0cf32ab7222ddf09",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.49/fabmo-engine_linux_raspberry-pi_v4.2.49.fmp",
+      "changelog": "The Sb4 app is now called \"Console\" and is built from cards you can rearrange. The large DRO also shows more at a glance.\n\nNew:\n- Sb4 app renamed \"Console\", with movable cards for jobs, USB drive, apps, tools and speeds.\n- Console cards can be shown, hidden, dragged or collapsed to a title bar; settings stay per browser.\n- \"My Workflow\" card has Home XY and Home Z buttons that show when the tool is homed.\n- Press K anywhere in Console to open the Keypad.\n- Large DRO header shows units, manual or ATC tool change, machine state and current tool.\n- Limit switches can now be turned on or off with the VN command.\n\nImproved:\n- Large DRO numbers are bigger; the in/mm mark next to each axis is removed.\n- PRS5 ATC tool change, tool measuring and calibration corrected after testing on a real machine.\n- Z-zero and XY homing search distances now adjust to your machine's size.\n\nFixed:\n- Keypad no longer gets stuck after a move hits a limit switch.\n- Corrected errors in the CR (Cut Rectangle) command.\n- MD and MO removed from the command list because they are not supported.",
+      "date": "2026-10-28T12:56:09.767Z"
     }
   ]
 }
