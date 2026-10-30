@@ -1764,6 +1764,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.51/fabmo-engine_linux_raspberry-pi_v4.2.51.fmp",
       "changelog": "Note for the release author: the range says 7 commits, but only 4 are listed. The note below covers only those 4, so check the missing 3 before publishing.\n\nThe Console app no longer hangs while loading when no camera is attached. Machines with the PRS Carolina tool changer are now supported.\n\nNew:\n- Support for the PRS Carolina automatic tool changer: tool change, measuring, plate offset, calibration, and status check.\n\nImproved:\n- The tool-change label in the header bar now reads [Manual] instead of [Type: Manual].\n\nFixed:\n- The Console app no longer spins forever at startup when the camera service runs without a camera.",
       "date": "2026-10-28T17:57:55.796Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.53",
+      "md5": "99f292b413dcd6d6b7d1680d50a9f3ee",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.53/fabmo-engine_linux_raspberry-pi_v4.2.53.fmp",
+      "changelog": "Manual jogging is safer in this update. The machine now stops reliably when a jog is interrupted instead of continuing to move.\n\nFixed:\n- Jogging now stops if you switch windows or tabs while holding a jog key.\n- Jogging now stops if the browser closes, crashes, or loses its network link.\n- Another device or tab connecting can no longer keep an abandoned jog running.\n- Toggling Fixed mode while holding a jog key no longer leaves the machine moving.\n- Releasing a non-jog key while jogging no longer causes stop-and-start stuttering.\n- Sliding off a keypad button in Fixed mode now ends the move cleanly.\n- Fixed a software crash that could happen when leaving the keypad during a jog.\n\nImproved:\n- The D/F Fixed mode shortcut now works only with the keypad open and when not typing.\n- Scrollbars are now hidden in the console. Scroll with the mouse wheel, arrow keys, or finger drag.",
+      "date": "2026-10-30T18:45:59.295Z"
     }
   ]
 }
