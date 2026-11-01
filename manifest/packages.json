@@ -1776,6 +1776,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.53/fabmo-engine_linux_raspberry-pi_v4.2.53.fmp",
       "changelog": "Manual jogging is safer in this update. The machine now stops reliably when a jog is interrupted instead of continuing to move.\n\nFixed:\n- Jogging now stops if you switch windows or tabs while holding a jog key.\n- Jogging now stops if the browser closes, crashes, or loses its network link.\n- Another device or tab connecting can no longer keep an abandoned jog running.\n- Toggling Fixed mode while holding a jog key no longer leaves the machine moving.\n- Releasing a non-jog key while jogging no longer causes stop-and-start stuttering.\n- Sliding off a keypad button in Fixed mode now ends the move cleanly.\n- Fixed a software crash that could happen when leaving the keypad during a jog.\n\nImproved:\n- The D/F Fixed mode shortcut now works only with the keypad open and when not typing.\n- Scrollbars are now hidden in the console. Scroll with the mouse wheel, arrow keys, or finger drag.",
       "date": "2026-10-30T18:45:59.295Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.57",
+      "md5": "74d989e8e5a65469d3eb8e640f382eb0",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.57/fabmo-updater_linux_raspberry-pi_v4.0.57.fmp",
+      "changelog": "This update adds a button to install the latest development version of FabMo directly from the updater. Development builds are meant for testing. Keep using regular updates on machines you rely on for production work.\n\nNew:\n- \"Update to Latest Master (Development)\" button in the Updates pane installs the newest development build.\n- The button asks you to confirm before starting, then reports whether the update succeeded or failed.\n\nImproved:\n- During a development update, progress appears live in the updater console instead of all at the end.\n- If a development update fails, FabMo restarts and the update is clearly marked as failed.",
+      "date": "2026-11-01T00:43:10.349Z"
     }
   ]
 }
