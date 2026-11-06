@@ -1800,6 +1800,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.55/fabmo-engine_linux_raspberry-pi_v4.2.55.fmp",
       "changelog": "This update makes jogging from the keyboard and on-screen keypad safer and more predictable.\n\nFixed:\n- Rapidly tapping the Z jog keys could leave Z moving with no key held.\n- Jog taps made just as the previous move finished were sometimes ignored.\n- Holding a key in fixed mode now steps evenly, without double steps or bursts.\n- Snap-to-grid jogs no longer go dead near a grid line or take partial steps.\n- Pendant",
       "date": "2026-11-01T00:48:59.856Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.57",
+      "md5": "ad4cfcd004663d2502a7f856f61619ef",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.57/fabmo-engine_linux_raspberry-pi_v4.2.57.fmp",
+      "changelog": "Previews no longer come up blank for most post-processor files, and the live preview now tracks the tool smoothly.\n\nNew:\n- Camera app: keep-out zones can be drawn in travel space beyond the table edges.\n- Camera calibration adds edge handles that correct lens bowing along each table edge.\n\nImproved:\n- Live preview follows the tool through arcs, entry moves, and keypad or pendant jogs.\n- Live Sync Buffer Comp",
+      "date": "2026-11-06T02:10:46.803Z"
     }
   ]
 }
