@@ -1824,6 +1824,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.59/fabmo-engine_linux_raspberry-pi_v4.2.59.fmp",
       "changelog": "New:\n- Operator role: users can run the Console and keypad but cannot change settings.\n- Scan Table in the Camera app takes a photo of your table without the gantry, for Table View.\n- Camera app calibration adds edge handles to correct lens bow along each side of the table.\n\nImproved:\n- Calibration now happens only in the Camera app. The previewer's Recalibrate button is now Calibrate in Camera App.\n- Users tab: a role dropdown for each user replaces the grant/revoke admin icons.\n- Continuous jogs now stop on their own if the screen misses your release.\n- Camera grid labels and the origin marker are sharper and easier to read on all machines.\n\nFixed:\n- A stop or limit input during manual moves now shows Resume/Quit instead of leaving the keypad stuck.\n- Keypad hotkeys F, D and K now work with Caps Lock on or Shift held.",
       "date": "2026-11-11T22:07:43.833Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.61",
+      "md5": "46cac8da532d028a32493290092bafd8",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.61/fabmo-engine_linux_raspberry-pi_v4.2.61.fmp",
+      "changelog": "Repeated jobs now run their full count. A drive fault now clears the homed state, so re-home afterward.\n\nNew:\n- Operator accounts can now use the Job Manager and open the Previewer, but not edit files.\n- The Console job queue now has preview, repeat, ghost run, edit, download and delete buttons.\n\nImproved:\n- A drive fault now clears the Home XY and Home Z status, so re-home before cutting again.\n- Homed buttons in the Console now show a green check instead of looking dimmed and disabled.\n\nFixed:\n- Jobs set to repeat now run every repeat instead of stopping after one or two.\n- Tapping a job in the Job Manager no longer changes the queue order or repeat settings.\n- A bad USB file request no longer crashes the tool's control software.\n- iPhones no longer get stuck reloading the login page or spinning while launching apps.\n- The Previewer's camera overlay view no longer shows stripes across the material.",
+      "date": "2026-11-14T23:03:52.670Z"
     }
   ]
 }
