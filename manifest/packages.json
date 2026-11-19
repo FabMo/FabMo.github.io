@@ -1836,6 +1836,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.61/fabmo-engine_linux_raspberry-pi_v4.2.61.fmp",
       "changelog": "Repeated jobs now run their full count. A drive fault now clears the homed state, so re-home afterward.\n\nNew:\n- Operator accounts can now use the Job Manager and open the Previewer, but not edit files.\n- The Console job queue now has preview, repeat, ghost run, edit, download and delete buttons.\n\nImproved:\n- A drive fault now clears the Home XY and Home Z status, so re-home before cutting again.\n- Homed buttons in the Console now show a green check instead of looking dimmed and disabled.\n\nFixed:\n- Jobs set to repeat now run every repeat instead of stopping after one or two.\n- Tapping a job in the Job Manager no longer changes the queue order or repeat settings.\n- A bad USB file request no longer crashes the tool's control software.\n- iPhones no longer get stuck reloading the login page or spinning while launching apps.\n- The Previewer's camera overlay view no longer shows stripes across the material.",
       "date": "2026-11-14T23:03:52.670Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.59",
+      "md5": "468c04016a8d18e0bf1ec7d01439e1a8",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.59/fabmo-updater_linux_raspberry-pi_v4.0.59.fmp",
+      "changelog": "This update adds remote support: you can let a ShopBot support tech reach your machine for a limited time, and only when you choose.\n\nNew:\n- Get a code to read to a ShopBot support tech; they connect to your machine once they enter it.\n- Remote support controls are at the top of the Software Updates page and on the updater sign-in page.\n- Remote support works even when the main FabMo software will not start, because the updater handles it.\n- Grant Full Access lets the tech use the terminal and system tools until the session ends.\n- End session disconnects the tech right away, and every session also expires on its own.\n- Outside a session your machine is not on the support network and nothing extra is running.\n- Sessions and full access can only be started from your machine's own pages, never by the remote tech.",
+      "date": "2026-11-19T03:48:39.353Z"
     }
   ]
 }
