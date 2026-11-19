@@ -1848,6 +1848,18 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.59/fabmo-updater_linux_raspberry-pi_v4.0.59.fmp",
       "changelog": "This update adds remote support: you can let a ShopBot support tech reach your machine for a limited time, and only when you choose.\n\nNew:\n- Get a code to read to a ShopBot support tech; they connect to your machine once they enter it.\n- Remote support controls are at the top of the Software Updates page and on the updater sign-in page.\n- Remote support works even when the main FabMo software will not start, because the updater handles it.\n- Grant Full Access lets the tech use the terminal and system tools until the session ends.\n- End session disconnects the tech right away, and every session also expires on its own.\n- Outside a session your machine is not on the support network and nothing extra is running.\n- Sessions and full access can only be started from your machine's own pages, never by the remote tech.",
       "date": "2026-11-19T03:48:39.353Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.63",
+      "md5": "21a9f16495ee414db446fa5a122e3ed9",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.63/fabmo-engine_linux_raspberry-pi_v4.2.63.fmp",
+      "changelog": "Remote support is new, and Z soft limits are no longer checked. X and Y limits still apply.\n\nNew:\n- Remote support: get a code under Configuration, General, Software to let a technician connect.\n- Technicians cannot move the machine until someone at the shop allows it, ten minutes at a time.\n- ATC machines: the Console Tools card adds Empty Spindle and an Automatic/Manual tool change switch.\n- Output messages can now appear either before or after the output turns on.\n\nImproved:\n- PRSalpha profiles now show the green start button message after output 1 turns on.\n- The Jobs card sets pending jobs apart from history and highlights the next job.\n- Profile Designer uses dropdowns for fixed-choice settings and flags invalid values in red.\n\nFixed:\n- Keypad and joystick jogs now stop at X/Y soft limits instead of overrunning and stalling.\n- Apps no longer stay stuck behind the loading gear on slow connections.\n- Part files using \"PAUSE,2\" with a comma now run instead of stopping with an error.",
+      "date": "2026-11-19T03:56:58.670Z"
     }
   ]
 }
