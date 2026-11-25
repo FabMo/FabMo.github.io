@@ -1872,6 +1872,18 @@
       "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.61/fabmo-updater_linux_raspberry-pi_v4.0.61.fmp",
       "changelog": "This is a small maintenance update for the network side of your tool. It makes the machine's own Wi-Fi hotspot more dependable right after power-on.\n\nIf you connect to your tool through its hotspot, you should see fewer connection problems after startup. If you connect over your shop or school network instead, this fix does not apply to you.\n\nFixed:\n- The tool's Wi-Fi hotspot now starts reliably at power-on, so phones and laptops can connect.\n\n---\nNote: The range says 2 commits, but the log lists only one (f32e4ac). If the second commit has a user-visible change, send it over and I'll add it.",
       "date": "2026-11-25T17:25:27.032Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Engine",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.2.65",
+      "md5": "6934390b23536516bf192f3570178357",
+      "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.65/fabmo-engine_linux_raspberry-pi_v4.2.65.fmp",
+      "changelog": "Jogs that are stopped by a limit switch or stop input now stay stopped, and manual moves start more smoothly.\n\nFixed:\n- A jog halted by a limit switch or stop input no longer starts moving again by itself.\n- Quickly closing and reopening the keypad no longer locks up manual mode until a restart.\n- The tool's own Wi-Fi access point is no longer set up more than once at startup.\n- The editor's syntax check now accepts the pound sign (#) in CN commands.\n\nImproved:\n- Manual moves from the keypad and pendant now ease into motion instead of starting abruptly.\n\nChanged:\n- The \"Jobs\" label now reads \"Job Queues\".",
+      "date": "2026-11-25T17:31:31.809Z"
     }
   ]
 }
