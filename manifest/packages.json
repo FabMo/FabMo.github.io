@@ -1860,6 +1860,18 @@
       "url": "https://github.com/FabMo/FabMo-Engine/releases/download/v4.2.63/fabmo-engine_linux_raspberry-pi_v4.2.63.fmp",
       "changelog": "Remote support is new, and Z soft limits are no longer checked. X and Y limits still apply.\n\nNew:\n- Remote support: get a code under Configuration, General, Software to let a technician connect.\n- Technicians cannot move the machine until someone at the shop allows it, ten minutes at a time.\n- ATC machines: the Console Tools card adds Empty Spindle and an Automatic/Manual tool change switch.\n- Output messages can now appear either before or after the output turns on.\n\nImproved:\n- PRSalpha profiles now show the green start button message after output 1 turns on.\n- The Jobs card sets pending jobs apart from history and highlights the next job.\n- Profile Designer uses dropdowns for fixed-choice settings and flags invalid values in red.\n\nFixed:\n- Keypad and joystick jogs now stop at X/Y soft limits instead of overrunning and stalling.\n- Apps no longer stay stuck behind the loading gear on slow connections.\n- Part files using \"PAUSE,2\" with a comma now run instead of stopping with an error.",
       "date": "2026-11-19T03:56:58.670Z"
+    },
+    {
+      "os": "linux",
+      "product": "FabMo-Updater",
+      "platform": "raspberry-pi",
+      "system": "dt",
+      "updaterNeeded": "v2.0.0",
+      "version": "v4.0.61",
+      "md5": "ce375061c54fd162c3e9e0bb647e26c1",
+      "url": "https://github.com/FabMo/FabMo-Updater/releases/download/v4.0.61/fabmo-updater_linux_raspberry-pi_v4.0.61.fmp",
+      "changelog": "This is a small maintenance update for the network side of your tool. It makes the machine's own Wi-Fi hotspot more dependable right after power-on.\n\nIf you connect to your tool through its hotspot, you should see fewer connection problems after startup. If you connect over your shop or school network instead, this fix does not apply to you.\n\nFixed:\n- The tool's Wi-Fi hotspot now starts reliably at power-on, so phones and laptops can connect.\n\n---\nNote: The range says 2 commits, but the log lists only one (f32e4ac). If the second commit has a user-visible change, send it over and I'll add it.",
+      "date": "2026-11-25T17:25:27.032Z"
     }
   ]
 }
